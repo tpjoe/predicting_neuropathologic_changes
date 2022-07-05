@@ -4,16 +4,16 @@ This repository contains a trained multitask LSTM model for predicting 17 neurop
 Breifly, the input of the structure is as follow:
 
 NACCID | NACCVNUM | Feature_1 | Feature_2 | Feature_3 | Feature_n | 
---- | --- | --- | --- |--- |---
 ID1 | 1 | value | value | value | value |
---- | --- | --- | --- |--- |---
 ID1 | 2 | value | value | value | value |
---- | --- | --- | --- |--- |---
 ID1 | 3 | value | value | value | value |
---- | --- | --- | --- |--- |---
 ID2 | 1 | value | value | value | value |
---- | --- | --- | --- |--- |---
 ID2 | 2 | value | value | value | value |
+ID3 | 1 | value | value | value | value |
+ID3 | 2 | value | value | value | value |
+ID3 | 3 | value | value | value | value |
+ID3 | 4 | value | value | value | value |
+--- | --- | --- | --- |--- |---
 
 To use the model you would need pyTorch version 1.9.0
 
