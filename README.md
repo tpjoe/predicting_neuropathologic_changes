@@ -5,7 +5,15 @@ Breifly, the input of the structure is as follow:
 
 NACCID | NACCVNUM | Feature_1 | Feature_2 | Feature_3 | Feature_n | 
 --- | --- | --- | --- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 |
+ID1 | 1 | value | value | value | value |
+--- | --- | --- | --- |--- |---
+ID1 | 2 | value | value | value | value |
+--- | --- | --- | --- |--- |---
+ID1 | 3 | value | value | value | value |
+--- | --- | --- | --- |--- |---
+ID2 | 1 | value | value | value | value |
+--- | --- | --- | --- |--- |---
+ID2 | 2 | value | value | value | value |
 
 To use the model you would need pyTorch version 1.9.0
 
