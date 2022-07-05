@@ -1,9 +1,9 @@
 # predicting_neuropathologic_changes
 This repository contains a trained multitask LSTM model for predicting 17 neuropathologic changes from clinical features structured as shown in the template. The input is structured as in NACC Dataset (https://naccdata.org/). It requires 50 variables from the dataset. These 50 variables, as well as the input structure, can be found in the "example_data.csv".
 
-Breifly, the input of the structure is as follow:
+Breifly, the input table must have the following structure:
 
-NACCID | NACCVNUM | Feature_1 | Feature_2 | Feature_3 | Feature_n | 
+NACCID | NACCVNUM | Feature_1 | Feature_2 | Feature_... | Feature_50 | 
 --- | --- | --- | --- |--- |---|
 ID1 | 1 | value | value | value | value |
 ID1 | 2 | value | value | value | value |
