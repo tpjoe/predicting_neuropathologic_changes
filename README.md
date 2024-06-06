@@ -25,3 +25,5 @@ python run.py -example_data.csv
 ```
 
 This will output the prediction table "predicted_output.csv", containing predicted values for all 17 neuropathologic changes. Note that the predicted values is the model's relative probability ranging from 0 to 1.
+
+Update [05/12/23] - When using the model, DECAGE should be replaced with 0 when unknown for 888.
