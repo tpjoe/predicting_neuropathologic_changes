@@ -1,0 +1,2681 @@
+,form,var_name,description,var_type,source,type,subtype
+0,"1
+Form header",NACCID,Subject ID,Derived variable,v1–10,method,method
+1,"1
+Form header",NACCADC,ADC at which subject was seen,Derived variable,v1–10,method,method
+2,"1
+Form header",NPFORMVER,NP form version,Original NP question,v8–10,method,method
+3,"2
+Subject 
+demographics",NPSEX,Subject’s sex,Original NP question,v1–10,x,genetics
+4,"2
+Subject 
+demographics",NACCDAGE,Age at death,Derived variable,"v1–10, 
+Milestones",x,death
+5,"2
+Subject 
+demographics",NACCMOD,Month of death,Derived variable,"v1–10, 
+Milestones",x,death
+6,"2
+Subject 
+demographics",NACCYOD,Year of death,Derived variable,"v1–10, 
+Milestones",x,death
+7,"2
+Subject 
+demographics",NACCINT,Time interval between last visit and death,Derived variable,"v1–10, 
+Milestones",x,death
+8,"3
+Brain autopsy 
+details",NPPMIH,Postmortem interval (PMI) (hours),Original NP question,v10,x,death
+9,"3
+Brain autopsy 
+details",NPFIX,Fixative,Original NP question,v10,method,method
+10,"3
+Brain autopsy 
+details",NPFIXX,Fixative other specify,Original NP question,v10,method,method
+11,"4
+Gross findings and 
+overall impressions",NPWBRWT,Whole brain weight (grams),Original NP question,v10,y,y
+12,"4
+Gross findings and 
+overall impressions",NPWBRF,Fresh or fixed brain weight,Original NP question,v10,y,y
+13,"4
+Gross findings and 
+overall impressions",NACCBRNN,No major neuropathologic change present,Derived variable,v1–10,y,y
+14,"4
+Gross findings and 
+overall impressions",NPGRCCA,Severity of gross findings — cerebral cortex atrophy,Original NP question,v10,y,y
+15,"4
+Gross findings and 
+overall impressions",NPGRLA,Severity of gross findings — lobar atrophy,Original NP question,v10,y,y
+16,"4
+Gross findings and 
+overall impressions",NPGRHA,Severity of gross findings — hippocampus atrophy,Original NP question,v10,y,y
+17,"4
+Gross findings and 
+overall impressions",NPGRSNH,"Severity of gross findings — substantia nigra 
+hypopigmentation",Original NP question,v10,y,y
+18,"4
+Gross findings and 
+overall impressions",NPGRLCH,"Severity of gross findings — I. (locus) ceruleus 
+hypopigmentation",Original NP question,v10,y,y
+19,"4
+Gross findings and 
+overall impressions",NACCAVAS,"Severity of gross findings — atherosclerosis of the 
+circle of Willis",Derived variable,v1–10,y,y
+20,"5
+Methods for  
+scoring case",NPTAN,Method for scoring case — tau antibody,Original NP question,v10,method,method
+21,"5
+Methods for  
+scoring case",NPTANX,"Method for scoring case — tau antibody other 
+specify",Original NP question,v10,method,method
+22,"5
+Methods for  
+scoring case",NPABAN,Method for scoring case — amyloid beta antibody,Original NP question,v10,method,method
+23,"5
+Methods for  
+scoring case",NPABANX,"Method for scoring case — amyloid beta antibody 
+other specify",Original NP question,v10,method,method
+24,"5
+Methods for  
+scoring case",NPASAN,"Method for scoring case — alpha synuclein 
+antibody",Original NP question,v10,method,method
+25,"5
+Methods for  
+scoring case",NPASANX,"Method for scoring case — alpha synuclein 
+antibody other specify",Original NP question,v10,method,method
+26,"5
+Methods for  
+scoring case",NPTDPAN,Method for scoring case — TDP-43 antibody,Original NP question,v10,method,method
+27,"5
+Methods for  
+scoring case",NPTDPANX,"Method for scoring case — TDP-43 antibody  
+other specify",Original NP question,v10,method,method
+28,"5
+Methods for  
+scoring case",NPHISMB,Histochemical stain used — modifed Bielschosky,Original NP question,v10,method,method
+29,"5
+Methods for  
+scoring case",NPHISG,Histochemical stain used — Gallyas,Original NP question,v10,method,method
+30,"5
+Methods for  
+scoring case",NPHISSS,Histochemical stain used — other silver stain,Original NP question,v10,method,method
+31,"5
+Methods for  
+scoring case",NPHIST,Histochemical stain used — thioflavin,Original NP question,v10,method,method
+32,"5
+Methods for  
+scoring case",NPHISO,Histochemical stain used — other,Original NP question,v10,method,method
+33,"5
+Methods for  
+scoring case",NPHISOX,Histochemical stain used — other specify,Original NP question,v10,method,method
+34,"6
+Alzheimer’s disease",NPTHAL,Thal phase for amyloid plaques (A score),Original NP question,v10,y,y
+35,"6
+Alzheimer’s disease",NACCBRAA,"Braak stage for neurofibrillary degeneration  
+(B score)",Derived variable,v1–10,y,y
+36,"6
+Alzheimer’s disease",NACCNEUR,"Density of neocortical neuritic plaques (CERAD 
+score) (C score)",Derived variable,v1–10,y,y
+37,"6
+Alzheimer’s disease",NPADNC,"NIA-AA Alzheimer’s disease neuropathologic 
+change (ADNC) (ABC score)",Original NP question,v10,y,y
+38,"6
+Alzheimer’s disease",NACCDIFF,"Density of diffuse plaques (CERAD semi-
+quantitative score)",Derived variable,v1–10,y,y
+39,"7
+Cerebrovascular 
+disease",NACCVASC,"Ischemic, hemorrhagic, or vascular pathology 
+present",Derived variable,v1–10,y,y
+40,"7
+Cerebrovascular 
+disease",NACCAMY,Cerebral amyloid angiopathy,Derived variable,v1–10,y,y
+41,"7
+Cerebrovascular 
+disease",NPLINF,Large arterial infarcts present,Original NP question,v1–9,y,y
+42,"7
+Cerebrovascular 
+disease",NPLAC,"One or more lacunes (small artery infracts and/or 
+hemorrhages) present",Original NP question,v1–9,y,y
+43,"7
+Cerebrovascular 
+disease",NPINF,Old infarcts observed grossly (including lacunes),Original NP question,v10,y,y
+44,"7
+Cerebrovascular 
+disease",NPINF1A,"Old infarcts observed grossly — number in  
+cerebral cortex",Original NP question,v10,y,y
+45,"7
+Cerebrovascular 
+disease",NPINF1B,"Size of largest old infarct observed in cerebral 
+cortex (cm)",Original NP question,v10,y,y
+46,"7
+Cerebrovascular 
+disease",NPINF1D,"Size of second-largest old infarct observed in 
+cerebral cortex (cm)",Original NP question,v10,y,y
+47,"7
+Cerebrovascular 
+disease",NPINF1F,"Size of third-largest old infact observed in  
+cerebral cortex (cm)",Original NP question,v10,y,y
+48,"7
+Cerebrovascular 
+disease",NPINF2A,"Old infarcts observed grossly — number in 
+subcortical/periventricular white matter",Original NP question,v10,y,y
+49,"7
+Cerebrovascular 
+disease",NPINF2B,"Size of largest old infarct observed in subcortical 
+cerebral/periventricular white matter (cm)",Original NP question,v10,y,y
+50,"7
+Cerebrovascular 
+disease",NPINF2D,"Size of second-largest old infarct observed in sub-
+cortical cerebral/periventricular white matter (cm)",Original NP question,v10,y,y
+51,"7
+Cerebrovascular 
+disease",NPINF2F,"Size of third-largest old infarct observed in sub-
+cortical cerebral/periventricular white matter (cm)",Original NP question,v10,y,y
+52,"7
+Cerebrovascular 
+disease",NPINF3A,"Old infarcts observed grossly — number in deep 
+cerebral gray matter or internal capsule",Original NP question,v10,y,y
+53,"7
+Cerebrovascular 
+disease",NPINF3B,"Size of largest old infarct observed in deep 
+cerebral gray matter or internal capsule",Original NP question,v10,y,y
+54,"7
+Cerebrovascular 
+disease",NPINF3D,"Size of second-largest old infarct observed in deep 
+cerebral gray matter or internal capsule (cm)",Original NP question,v10,y,y
+55,"7
+Cerebrovascular 
+disease",NPINF3F,"Size of third-largest old infarct observed in deep 
+cerebral gray matter or internal capsule (cm)",Original NP question,v10,y,y
+56,"7
+Cerebrovascular 
+disease",NPINF4A,"Old infarcts observed grossly — number in 
+brainstem or cerebellum",Original NP question,v10,y,y
+57,"7
+Cerebrovascular 
+disease",NPINF4B,"Size of largest old infarct observed in brainstem  
+or cerebellum (cm)",Original NP question,v10,y,y
+58,"7
+Cerebrovascular 
+disease",NPINF4D,"Size of second largest old infarct observed in 
+brainstem or cerebellum (cm)",Original NP question,v10,y,y
+59,"7
+Cerebrovascular 
+disease",NPINF4F,"Size of third largest old infarct observed in 
+brainstem or cerebellum (cm)",Original NP question,v10,y,y
+60,"7
+Cerebrovascular 
+disease",NACCINF,Infarcts and lacunes,Derived variable,v1–10,y,y
+61,"7
+Cerebrovascular 
+disease",NPHEM,Single or multiple hemorrhages present,Original NP question,v1–9,y,y
+62,"7
+Cerebrovascular 
+disease",NPHEMO,"Single or multiple old hemorrhages observed 
+grossly",Original NP question,v10,y,y
+63,"7
+Cerebrovascular 
+disease",NPHEMO1,"Single or multiple old hemorrhages observed 
+grossly — subdural or epidural hemorrhage",Original NP question,v10,y,y
+64,"7
+Cerebrovascular 
+disease",NPHEMO2,"Single or multiple old hemorrhages observed 
+grossly — primary parenchymal hemorrhage",Original NP question,v10,y,y
+65,"7
+Cerebrovascular 
+disease",NPHEMO3,"Single or multiple old hemorrhages observed 
+grossly — secondary parenchymal hemorrhage",Original NP question,v10,y,y
+66,"7
+Cerebrovascular 
+disease",NPMICRO,Multiple microinfarcts present,Original NP question,v1–9,y,y
+67,"7
+Cerebrovascular 
+disease",NPOLD,"Old microinfarcts, not observed grossly",Original NP question,v10,y,y
+68,"7
+Cerebrovascular 
+disease",NPOLD1,"Number of old microinfarcts, not observed grossly 
+— cerebral cortex",Original NP question,v10,y,y
+69,"7
+Cerebrovascular 
+disease",NPOLD2,"Number of old microinfarcts, not observed grossly 
+— subcortical or periventricular white matter",Original NP question,v10,y,y
+70,"7
+Cerebrovascular 
+disease",NPOLD3,"Number of old microinfarcts, not observed grossly 
+— subcortical gray matter",Original NP question,v10,y,y
+71,"7
+Cerebrovascular 
+disease",NPOLD4,"Number of old microinfarcts, not observed grossly 
+— brainstem and cerebellum",Original NP question,v10,y,y
+72,"7
+Cerebrovascular 
+disease",NACCMICR,Microinfarcts,Derived variable,v1–10,y,y
+73,"7
+Cerebrovascular 
+disease",NPOLDD,Old cerebral microbleeds,Original NP question,v10,y,y
+74,"7
+Cerebrovascular 
+disease",NPOLDD1,Number of cerebral microbleeds — cerebral cortex,Original NP question,v10,y,y
+75,"7
+Cerebrovascular 
+disease",NPOLDD2,"Number of cerebral microbleeds — subcortical  
+and periventricular white matter",Original NP question,v10,y,y
+76,"7
+Cerebrovascular 
+disease",NPOLDD3,"Number of cerebral microbleeds — subcortical 
+gray matter",Original NP question,v10,y,y
+77,"7
+Cerebrovascular 
+disease",NPOLDD4,"Number of cerebral microbleeds — brainstem  
+and cerebellum",Original NP question,v10,y,y
+78,"7
+Cerebrovascular 
+disease",NACCHEM,Hemorrhages and microbleeds,Derived variable,v1–10,y,y
+79,"7
+Cerebrovascular 
+disease",NACCARTE,Arteriolosclerosis,Derived variable,v1–10,y,y
+80,"7
+Cerebrovascular 
+disease",NPWMR,White matter rarefaction,Original NP question,v10,y,y
+81,"7
+Cerebrovascular 
+disease",NPPATH,"Other pathological changes related to ischemic  
+or vascular disease not previously specfied",Original NP question,v10,y,y
+82,"7
+Cerebrovascular 
+disease",NACCNEC,Laminar necrosis,Derived variable,v1–10,y,y
+83,"7
+Cerebrovascular 
+disease",NPPATH2,Acute neuronal necrosis,Original NP question,v10,y,y
+84,"7
+Cerebrovascular 
+disease",NPPATH3,Acute/subacute gross infarcts,Original NP question,v10,y,y
+85,"7
+Cerebrovascular 
+disease",NPPATH4,Acute/subacute microinfarcts,Original NP question,v10,y,y
+86,"7
+Cerebrovascular 
+disease",NPPATH5,Acute/subacute gross hemorrhage,Original NP question,v10,y,y
+87,"7
+Cerebrovascular 
+disease",NPPATH6,Acute/subacute microhemorrhage,Original NP question,v10,y,y
+88,"7
+Cerebrovascular 
+disease",NPPATH7,Vascular malformation of any type,Original NP question,v10,y,y
+89,"7
+Cerebrovascular 
+disease",NPPATH8,Aneurysm of any type,Original NP question,v10,y,y
+90,"7
+Cerebrovascular 
+disease",NPPATH9,Vasculitis of any type,Original NP question,v10,y,y
+91,"7
+Cerebrovascular 
+disease",NPPATH10,CADASIL,Original NP question,v10,y,y
+92,"7
+Cerebrovascular 
+disease",NPPATH11,Mineralization of blood vessels,Original NP question,v10,y,y
+94,"7
+Cerebrovascular 
+disease",NPPATHOX,Other ischemic or vascular pathology specify,Original NP question,v10,y,y
+95,"7
+Cerebrovascular 
+disease",NPART,"Subcortical arteriosclerotic leukoencephalopathy 
+present",Original NP question,v1–9,y,y
+96,"7
+Cerebrovascular 
+disease",NPOANG,Angiopathy other than amyloid angiopathy present,Original NP question,v1–9,y,y
+97,"8
+Lewy body and 
+substantia nigra 
+pathology",NACCLEWY,Lewy body pathology,Derived variable,v1–10,y,y
+98,"8
+Lewy body and 
+substantia nigra 
+pathology",NPLBOD,Evidence of Lewy body pathology,Original NP question,v10,y,y
+99,"8
+Lewy body and 
+substantia nigra 
+pathology",NPNLOSS,Neuron loss in the substantia nigra,Original NP question,v10,y,y
+100,"9
+Hippocampal 
+sclerosis",NPHIPSCL,Hippocampal sclerosis (CA1 and/or subiculum),Original NP question,v10,y,y
+101,"9
+Hippocampal 
+sclerosis",NPSCL,Medial temporal lobe sclerosis present,Original NP question,v1–9,y,y
+102,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDTAU,"FTLD with tau pathology (FTLD-tau) or other 
+tauopathy",Original NP question,v10,y,y
+103,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NACCPICK,FTLD-tau subtype — Pick’s (PiD),Derived variable,v1–10,y,y
+104,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT2,"FTLD-tau subtype — other 3R tauopathy  
+(includes MAPT mutation tauopathy)",Original NP question,v10,y,y
+105,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NACCCBD,"FTLD-tau subtype — corticobasal degeneration 
+(CBD)",Derived variable,v1–10,y,y
+106,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NACCPROG,"FTLD-tau subtype — progressive supranuclear 
+palsy (PSP)",Derived variable,v1–10,y,y
+107,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT5,FTLD-tau subtype — argyrophilic grains,Original NP question,v10,y,y
+108,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT6,"FTLD-tau subtype — other 4R tauopathy (includes 
+sporadic multiple systems tauopathy, globular glial 
+tauopathy, MAPT mutation tauopathy)",Original NP question,v10,y,y
+109,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT7,"FTLD-tau subtype — chronic traumatic 
+encephalopathy",Original NP question,v10,y,y
+110,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT8,"FTLD-tau subtype — amyotrophic lateral sclerosis 
+(ALS)/parkinsonism-dementia",Original NP question,v10,y,y
+111,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT9,FTLD-tau subtype — tangle dominant disease,Original NP question,v10,y,y
+112,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDT10,FTLD-tau subtype — other 3R + 4R tauopathy,Original NP question,v10,y,y
+113,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFRONT,"Frontemporal dementia and parkinsonism with  
+tau-positive or argyrophilic inclusions",Original NP question,v1–9,y,y
+114,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTAU,"Tauopathy, other (e.g., tangle-only dementia and 
+argyrophilic grain dementia)",Original NP question,v1–9,y,y
+115,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTD,"FTD with ubiquitin-positive 9 (tau-negative) 
+inclusions",Original NP question,v1–9,y,y
+116,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDTDP,FTLD with TDP-43 pathology (FTLD-TDP),Original NP question,v10,y,y
+117,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPALSMND,ALS/motor neuron disease (MND),Original NP question,v10,y,y
+118,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD,Other FTLD,Original NP question,v10,y,y
+119,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD1,Other FTLD subtype — atypical FTLD-U,Original NP question,v10,y,y
+120,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD2,"Other FTLD subtype — NIFID (neuronal 
+intermediate filament inclusions disease)",Original NP question,v10,y,y
+121,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD3,"Other FTLD subtype — BIBD (basophilic inclusion 
+body disease)",Original NP question,v10,y,y
+122,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD4,"Other FTLD subtype — FTLD-UPS (ubiquitin-
+proteasome system [ubiquitin or p62 positive, tau/
+TDP-43/FUS negative inclusions])",Original NP question,v10,y,y
+123,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPOFTD5,"Other FTLD subtype — FTLD-NOS (includes 
+dementia lacking distinctive histology [DLDH] and 
+FTLD with no inclusions [FTLD-NI] detected by 
+tau, TDP-43, or ubiquitin/p62 IHC)",Original NP question,v10,y,y
+124,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDNO,FTD with no distinctive histopathology present,Original NP question,v1–9,y,y
+125,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPFTDSPC,FTD not otherwise specified present,Original NP question,v1–9,y,y
+126,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTDPA,"Distribution of TDP-43 immunoreactive inclusions 
+— spinal cord",Original NP question,v10,y,y
+127,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTDPB,"Distribution of TDP-43 immunoreactive inclusions 
+— amygdala",Original NP question,v10,y,y
+128,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTDPC,"Distribution of TDP-43 immunoreactive inclusions 
+— hippcampus",Original NP question,v10,y,y
+129,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTDPD,"Distribution of TDP-43 immunoreactive inclusions 
+— entorhinal/inferior temporal cortex",Original NP question,v10,y,y
+130,"10
+Frontotemporal lobar 
+degeneration, other 
+tauopathies, and 
+TDP-43 pathology",NPTDPE,"Distribution of TDP-43 immunoreactive inclusions 
+— neocortex",Original NP question,v10,y,y
+131,"11
+Other pathologic 
+diagnoses",NPPDXA,Pigment-spheroid degeneration/NBIA,Original NP question,v10,y,y
+132,"11
+Other pathologic 
+diagnoses",NPPDXB,Multiple system atrophy,Original NP question,v10,y,y
+133,"11
+Other pathologic 
+diagnoses",NACCPRIO,Prion disease,Derived variable,v1–10,y,y
+134,"11
+Other pathologic 
+diagnoses",NPPDXD,"Trinucleotide disease (Huntington disease,  
+SCA, other)",Original NP question,v10,y,y
+135,"11
+Other pathologic 
+diagnoses",NPPDXE,Malformation of cortical development,Original NP question,v10,y,y
+136,"11
+Other pathologic 
+diagnoses",NPPDXF,Metabolic/storage disorder of any type,Original NP question,v10,y,y
+137,"11
+Other pathologic 
+diagnoses",NPPDXG,"WM disease, leukodystrophy",Original NP question,v10,y,y
+138,"11
+Other pathologic 
+diagnoses",NPPDXH,"WM disease, multiple sclerosis or other 
+demyelinating disease",Original NP question,v10,y,y
+139,"11
+Other pathologic 
+diagnoses",NPPDXI,"Contusion/traumatic brain injury of any type, acute",Original NP question,v10,y,y
+140,"11
+Other pathologic 
+diagnoses",NPPDXJ,"Contusion/traumatic brain injury of any type, 
+chronic",Original NP question,v10,y,y
+141,"11
+Other pathologic 
+diagnoses",NPPDXK,"Neoplasm, primary",Original NP question,v10,y,y
+142,"11
+Other pathologic 
+diagnoses",NPPDXL,"Neoplasm, metastatic",Original NP question,v10,y,y
+143,"11
+Other pathologic 
+diagnoses",NPPDXM,"Infectious process of any type (encephalitis, 
+abscess, etc.)",Original NP question,v10,y,y
+144,"11
+Other pathologic 
+diagnoses",NPPDXN,"Herniation, any site",Original NP question,v10,y,y
+145,"11
+Other pathologic 
+diagnoses",NACCDOWN,Down syndrome,Derived variable,v1–10,x,genetics
+146,"11
+Other pathologic 
+diagnoses",NPPDXP,AD-related genes,Original NP question,v10,x,genetics
+147,"11
+Other pathologic 
+diagnoses",NPPDXQ,FTLD-related genes,Original NP question,v10,x,genetics
+148,"11
+Other pathologic 
+diagnoses",NACCOTHP,Other pathologic diagnosis,Derived variable,v1–10,y,y
+152,"12
+Stored tissue and 
+full autopsy findings",NACCBNKF,Banked frozen brain,Derived variable,"v8–10, MDS",method,method
+153,"12
+Stored tissue and 
+full autopsy findings",NPBNKB,"Banked frozen wedge of cerebellum or other 
+sample for future DNA prep",Original NP question,v10,method,method
+154,"12
+Stored tissue and 
+full autopsy findings",NACCFORM,Formalin- or paraformaldehyde-fixed brain derived,Derived variable,"v8–10, MDS",method,method
+155,"12
+Stored tissue and 
+full autopsy findings",NACCPARA,Paraffin-embedded blocks of brain regions,Derived variable,"v8–10, MDS",method,method
+156,"12
+Stored tissue and 
+full autopsy findings",NACCCSFP,Banked postmortem CSF,Derived variable,"v8–10, MDS",method,method
+157,"12
+Stored tissue and 
+full autopsy findings",NPBNKF,Banked postmortem blood or serum,Original NP question,v10,method,method
+158,"12
+Stored tissue and 
+full autopsy findings",NPFAUT,Full autopsy performed,Original NP question,v10,method,method
+159,"12
+Stored tissue and 
+full autopsy findings",NPFAUT1,"If full autopsy performed, first major finding",Original NP question,v10,method,method
+160,"12
+Stored tissue and 
+full autopsy findings",NPFAUT2,"If full autopsy performed, second major finding",Original NP question,v10,method,method
+161,"12
+Stored tissue and 
+full autopsy findings",NPFAUT3,"If full autopsy performed, third major finding",Original NP question,v10,method,method
+162,"12
+Stored tissue and 
+full autopsy findings",NPFAUT4,"If full autopsy performed, fourth major finding",Original NP question,v10,method,method
+163,"App. 
+Glossary of other 
+A
+available NP data",NPNIT,NIA/Reagan Institute criteria,Original NP question,v1–9,method,method
+164,"App. 
+Glossary of other 
+A
+available NP data",NPCERAD,CERAD criteria,Original NP question,v1–9,method,method
+165,"App. 
+Glossary of other 
+A
+available NP data",NPADRDA,ADRDA/Khachaturian criteria,Original NP question,v1–9,method,method
+166,"App. 
+Glossary of other 
+A
+available NP data",NPOCRIT,Other criteria,Original NP question,v1–9,method,method
+167,"App. 
+Glossary of other 
+A
+available NP data",NPVOTH,Other vascular,Original NP question,v1–9,method,method
+168,"App. 
+Glossary of other 
+A
+available NP data",NPLEWYCS,DLB clinical syndrome due to DLB pathology,Original NP question,v9,x,diagnosis
+169,"App. 
+Glossary of other 
+A
+available NP data",NPGENE,Family history,Original NP question,v1–9,method,method
+171,"App. 
+Glossary of other 
+A
+available NP data",NPTAUHAP,Tau haplotype,Original NP question,v1–9,method,method
+172,"App. 
+Glossary of other 
+A
+available NP data",NPPRNP,PRNP codon 129,Original NP question,v1–9,method,method
+173,"App. 
+Glossary of other 
+A
+available NP data",NPCHROM,Genetic or chromosomal abnormalities,Original NP question,v1–9,method,method
+174,"App. 
+Glossary of other 
+A
+available NP data",NPPNORM,Normal brain — primary,Original NP question,v8–9,y,y
+175,"App. 
+Glossary of other 
+A
+available NP data",NPCNORM,Normal brain — contributing,Original NP question,v8–9,y,y
+176,"App. 
+Glossary of other 
+A
+available NP data",NPPADP,"AD pathology present but insufficient for AD 
+diagnosis — primary",Original NP question,v8–9,y,y
+177,"App. 
+Glossary of other 
+A
+available NP data",NPCADP,"AD pathology present but insufficient for AD 
+diagnosis — contributing",Original NP question,v8–9,y,y
+178,"App. 
+Glossary of other 
+A
+available NP data",NPPAD,Alzheimer’s disease — primary,Original NP question,v8–9,x,diagnosis
+179,"App. 
+Glossary of other 
+A
+available NP data",NPCAD,Alzheimer’s disease — contributing,Original NP question,v8–9,y,y
+180,"App. 
+Glossary of other 
+A
+available NP data",NPPLEWY,"Lewy body disease, with or without AD — primary",Original NP question,v8–9,y,y
+181,"App. 
+Glossary of other 
+A
+available NP data",NPCLEWY,"Lewy body disease, with or without AD — 
+contributing",Original NP question,v8–9,y,y
+182,"App. 
+Glossary of other 
+A
+available NP data",NPPVASC,Vascular disease — primary,Original NP question,v8–9,y,y
+183,"App. 
+Glossary of other 
+A
+available NP data",NPCVASC,Vascular disease — contributing,Original NP question,v8–9,y,y
+184,"App. 
+Glossary of other 
+A
+available NP data",NPPFTLD,FTLD — primary,Original NP question,v8–9,y,y
+185,"App. 
+Glossary of other 
+A
+available NP data",NPCFTLD,FTLD — contributing,Original NP question,v8–9,y,y
+186,"App. 
+Glossary of other 
+A
+available NP data",NPPHIPP,Hippocampal sclerosis — primary,Original NP question,v8–9,y,y
+187,"App. 
+Glossary of other 
+A
+available NP data",NPCHIPP,Hippocampal sclerosis — contributing,Original NP question,v8–9,y,y
+188,"App. 
+Glossary of other 
+A
+available NP data",NPPPRION,Prion-associated disease — primary,Original NP question,v8–9,y,y
+189,"App. 
+Glossary of other 
+A
+available NP data",NPCPRION,Prion-associated disease — contributing,Original NP question,v8–9,y,y
+190,"App. 
+Glossary of other 
+A
+available NP data",NPPOTH1,Other primary pathologic diagnosis 1,Original NP question,v8–9,y,y
+191,"App. 
+Glossary of other 
+A
+available NP data",NPCOTH1,Other contributing pathologic diagnosis 1,Original NP question,v8–9,y,y
+193,"App. 
+Glossary of other 
+A
+available NP data",NPPOTH2,Other primary pathologic diagnosis 2,Original NP question,v8–9,y,y
+194,"App. 
+Glossary of other 
+A
+available NP data",NPCOTH2,Other contributing pathologic diagnosis 2,Original NP question,v8–9,y,y
+196,"App. 
+Glossary of other 
+A
+available NP data",NPPOTH3,Other primary pathologic diagnosis 3,Original NP question,v8–9,y,y
+197,"App. 
+Glossary of other 
+A
+available NP data",NPCOTH3,Other contributing pathologic diagnosis 3,Original NP question,v8–9,y,y
+202,Form header,PACKET,Packet code,Original UDS question,v1-3,method,method
+203,Form header,FORMVER,Form version number,Original UDS question,v1-3,method,method
+204,Form header,VISITMO,Form date — month,Original UDS question,v1-3,method,method
+205,Form header,VISITDAY,Form date — day,Original UDS question,v1-3,method,method
+206,Form header,VISITYR,Form date — year,Original UDS question,v1-3,method,method
+207,Form header,NACCVNUM,UDS visit number (order),NACC derived variable,v1-3,method,method
+208,Form header,NACCAVST,Total number of all UDS visits made,NACC derived variable,v1-3,method,method
+209,Form header,NACCNVST,"Total number of in-person UDS visits 
+made",NACC derived variable,v1-3,method,method
+210,Form header,NACCDAYS,Days from initial visit to most recent visit,NACC derived variable,v1-3,method,method
+211,Form header,NACCFDYS,"Days from initial visit to each follow-up 
+visit",NACC derived variable,v1-3,method,method
+212,Milestones,NACCDIED,Subject is known to be deceased,NACC derived variable,v1-3,method,method
+215,Milestones,NACCACTV,"Follow-up status at the Alzheimer’s 
+Disease Center (ADC)",NACC derived variable,v1-3,method,method
+216,Milestones,NACCNOVS,"No longer followed annually in person or 
+by telephone",NACC derived variable,v1-3,method,method
+217,Milestones,NACCDSMO,"Month of discontinuation from annual 
+follow-up",NACC derived variable,v1-3,method,method
+218,Milestones,NACCDSDY,"Day of discontinuation from annual 
+follow-up",NACC derived variable,v1-3,method,method
+219,Milestones,NACCDSYR,"Year of discontinuation from annual 
+follow-up",NACC derived variable,v1-3,method,method
+220,Milestones,NACCNURP,Permanently moved to a nursing home,NACC derived variable,v1-3,method,method
+221,Milestones,NACCNRMO,"Month permanently moved to nursing 
+home",NACC derived variable,v1-3,method,method
+222,Milestones,NACCNRDY,Day permanently moved to nursing home,NACC derived variable,v1-3,method,method
+223,Milestones,NACCNRYR,"Year permanently moved to nursing 
+home",NACC derived variable,v1-3,method,method
+224,Milestones,NACCMDSS,"Subject’s status in the Minimal Data Set 
+(MDS) and Uniform Data Set (UDS)",NACC derived variable,v1-3,method,method
+225,Milestones,NACCPAFF,Previously affiliated subject,NACC derived variable,v1-3,method,method
+226,"A1
+Subject Demographics",NACCREAS,Primary reason for coming to ADC,NACC derived variable,v1-3,method,method
+227,"A1
+Subject Demographics",NACCREFR,Principal referral source,NACC derived variable,v1-3,method,method
+228,"A1
+Subject Demographics",BIRTHMO,Subject’s month of birth,Original UDS question,v1-3,method,method
+229,"A1
+Subject Demographics",BIRTHYR,Subject’s year of birth,Original UDS question,v1-3,method,method
+230,"A1
+Subject Demographics",SEX,Subject’s sex,Original UDS question,v1-3,x,reported
+231,"A1
+Subject Demographics",HISPANIC,Hispanic/Latino ethnicity,Original UDS question,v1-3,x,reported
+233,"A1
+Subject Demographics",HISPOR,Hispanic origins,Original UDS question,v1-3,x,reported
+235,"A1
+Subject Demographics",RACE,Race,Original UDS question,v1-3,x,reported
+237,"A1
+Subject Demographics",RACESEC,Second race,Original UDS question,v1-3,x,reported
+239,"A1
+Subject Demographics",RACETER,Third race,Original UDS question,v1-3,x,reported
+241,"A1
+Subject Demographics",PRIMLANG,Primary language,Original UDS question,v1-3,x,reported
+243,"A1
+Subject Demographics",EDUC,Years of education,Original UDS question,v1-3,x,reported
+244,"A1
+Subject Demographics",MARISTAT,Marital status,Original UDS question,v1-3,x,reported
+245,"A1
+Subject Demographics",NACCLIVS,Living situation,NACC derived variable,v1-3,x,reported
+246,"A1
+Subject Demographics",INDEPEND,Level of independence,Original UDS question,v1-3,x,reported
+247,"A1
+Subject Demographics",RESIDENC,Type of residence,Original UDS question,v1-3,x,reported
+248,"A1
+Subject Demographics",HANDED,Is the subject left- or right-handed?,Original UDS question,v1-3,x,reported
+249,"A1
+Subject Demographics",NACCAGE,Subject’s age at visit,NACC derived variable,v1-3,x,reported
+250,"A1
+Subject Demographics",NACCAGEB,Subject’s age at initial visit,NACC derived variable,v1-3,x,reported
+251,"A1
+Subject Demographics",NACCNIHR,Derived NIH race definitions,NACC derived variable,v1-3,x,reported
+252,"A2
+Co-participant Demographics",INBIRMO,Co-participant’s month of birth,Original UDS question,v1-3,method,method
+253,"A2
+Co-participant Demographics",INBIRYR,Co-participant’s year of birth,Original UDS question,v1-3,method,method
+254,"A2
+Co-participant Demographics",INSEX,Co-participant’s sex,Original UDS question,v1-3,method,method
+255,"A2
+Co-participant Demographics",NEWINF,"Is this a new co-participant — i.e., one 
+who was not a co-participant at any past 
+UDS visit?",Original UDS question,v1-3,method,method
+256,"A2
+Co-participant Demographics",INHISP,Co-participant Hispanic/Latino ethnicity,Original UDS question,v1-3,method,method
+257,"A2
+Co-participant Demographics",INHISPOR,Co-participant’s Hispanic origins,Original UDS question,v1-3,method,method
+259,"A2
+Co-participant Demographics",INRACE,Co-participant race,Original UDS question,v1-3,method,method
+261,"A2
+Co-participant Demographics",INRASEC,Co-participant second race,Original UDS question,v1-3,method,method
+263,"A2
+Co-participant Demographics",INRATER,Co-participant third race,Original UDS question,v1-3,method,method
+265,"A2
+Co-participant Demographics",INEDUC,Co-participant’s years of education,Original UDS question,v1-3,method,method
+266,"A2
+Co-participant Demographics",INRELTO,Co-participant’s relationship to subject,Original UDS question,v1-3,method,method
+268,"A2
+Co-participant Demographics",INKNOWN,"How long has the co-participant known 
+the subject?",Original UDS question,v3,method,method
+269,"A2
+Co-participant Demographics",INLIVWTH,"Does the co-participant live with the 
+subject?",Original UDS question,v1-3,method,method
+271,"A2
+Co-participant Demographics",INVISITS,"If no, approximate frequency of in-
+person visits?",Original UDS question,v1-3,method,method
+272,"A2
+Co-participant Demographics",INCALLS,"If no, approximate frequency of 
+telephone contact?",Original UDS question,v1-3,method,method
+273,"A2
+Co-participant Demographics",INRELY,"Is there a question about the co-
+participant’s reliability?",Original UDS question,v1-3,method,method
+274,"A2
+Co-participant Demographics",NACCNINR,Derived NIH race definitions,NACC derived variable,v1-3,method,method
+275,"A3
+Subject Family History",NACCFAM,"Indicator of first-degree family member 
+with cognitive impairment",NACC derived variable,v1-3,x,reported
+276,"A3
+Subject Family History",NACCMOM,"Indicator of mother with cognitive 
+impairment",NACC derived variable,v1-3,x,reported
+277,"A3
+Subject Family History",NACCDAD,"Indicator of father with cognitive 
+impairment",NACC derived variable,v1-3,x,reported
+278,"A3
+Subject Family History",NACCFADM,"In this family, is there evidence of a 
+dominantly inherited AD mutation?",NACC derived variable,v3,x,reported
+279,"A3
+Subject Family History",NACCAM,"In this family, is there evidence for 
+an AD mutation (from list of specific 
+mutations)?",NACC derived variable,v3,x,reported
+281,"A3
+Subject Family History",NACCAMS,Source of evidence for AD mutation,NACC derived variable,v3,method,method
+283,"A3
+Subject Family History",NACCFFTD,"In this family, is there evidence for an 
+FTLD mutation?",NACC derived variable,v3,x,reported
+284,"A3
+Subject Family History",NACCFM,"In this family, is there evidence for an 
+FTLD mutation (from list of specific 
+mutations)?",NACC derived variable,v3,x,reported
+286,"A3
+Subject Family History",NACCFMS,Source of evidence for FTLD mutation,NACC derived variable,v3,method,method
+288,"A3
+Subject Family History",NACCOM,"In this family, is there evidence for a 
+mutation other than an AD or FTLD 
+mutation?",NACC derived variable,v3,x,reported
+290,"A3
+Subject Family History",NACCOMS,Source of evidence for other mutation,NACC derived variable,v3,method,method
+292,"A4
+Subject Medications",ANYMEDS,Subject taking any medications,Original UDS question,v1-3,x,reported
+294,"A4
+Subject Medications",NACCAMD,"Total number of medications reported at  
+each visit",NACC derived variable,v1-3,x,reported
+295,"A4
+Subject Medications",NACCAHTN,"Reported current use of any type of 
+antihypertensive or blood pressure 
+medication",NACC derived variable,v1-3,x,reported
+296,"A4
+Subject Medications",NACCHTNC,"Reported current use of an 
+antihypertensive combination therapy",NACC derived variable,v1-3,x,reported
+297,"A4
+Subject Medications",NACCACEI,"Reported current use of an angiotensin 
+converting enzyme (ACE) inhibitor",NACC derived variable,v1-3,x,reported
+299,"A4
+Subject Medications",NACCAAAS,"Reported current use of an 
+antiadrenergic agent",NACC derived variable,v1-3,x,reported
+300,"A4
+Subject Medications",NACCBETA,"Reported current use of a beta-
+adrenergic blocking agent (Beta-Blocker)",NACC derived variable,v1-3,x,reported
+301,"A4
+Subject Medications",NACCCCBS,"Reported current use of a calcium 
+channel blocking agent",NACC derived variable,v1-3,x,reported
+302,"A4
+Subject Medications",NACCDIUR,Reported current use of a diuretic,NACC derived variable,v1-3,x,reported
+303,"A4
+Subject Medications",NACCVASD,Reported current use of a vasodilator,NACC derived variable,v1-3,x,reported
+304,"A4
+Subject Medications",NACCANGI,"Reported current use of an angiotensin 
+II inhibitor",NACC derived variable,v1-3,x,reported
+305,"A4
+Subject Medications",NACCLIPL,"Reported current use of lipid lowering 
+medication",NACC derived variable,v1-3,x,reported
+306,"A4
+Subject Medications",NACCNSD,"Reported current use of nonsteroidal 
+anti-inflammatory medication",NACC derived variable,v1-3,x,reported
+307,"A4
+Subject Medications",NACCAC,"Reported current use of an anticoagulant 
+or antiplatelet agent",NACC derived variable,v1-3,x,reported
+308,"A4
+Subject Medications",NACCADEP,"Reported current use of an 
+antidepressant",NACC derived variable,v1-3,x,reported
+309,"A4
+Subject Medications",NACCAPSY,"Reported current use of an antipsychotic 
+agent",NACC derived variable,v1-3,x,reported
+310,"A4
+Subject Medications",NACCAANX,"Reported current use of an anxiolytic, 
+sedative, or hypnotic agent",NACC derived variable,v1-3,x,reported
+311,"A4
+Subject Medications",NACCADMD,"Reported current use of a FDA-approved 
+medication for Alzheimer’s disease 
+symptoms",NACC derived variable,v1-3,x,reported
+312,"A4
+Subject Medications",NACCPDMD,"Reported current use of an antiparkinson 
+agent",NACC derived variable,v1-3,x,reported
+313,"A4
+Subject Medications",NACCEMD,"Reported current use of estrogen 
+hormone therapy",NACC derived variable,v1-3,x,reported
+314,"A4
+Subject Medications",NACCEPMD,"Reported current use of estrogen + 
+progestin hormone therapy",NACC derived variable,v1-3,x,reported
+315,"A4
+Subject Medications",NACCDBMD,"Reported current use of a diabetes 
+medication",NACC derived variable,v1-3,x,reported
+316,"A5
+Subject Health History",TOBAC30,Smoked cigarettes in last 30 days,Original UDS question,v1-3,x,reported
+317,"A5
+Subject Health History",TOBAC100,Smoked more than 100 cigarettes in life,Original UDS question,v1-3,x,reported
+318,"A5
+Subject Health History",SMOKYRS,Total years smoked cigarettes,Original UDS question,v1-3,x,reported
+319,"A5
+Subject Health History",PACKSPER,"Average number of packs smoked per 
+day",Original UDS question,v1-3,x,reported
+320,"A5
+Subject Health History",QUITSMOK,"If the subject quit smoking, age at which 
+he/she last smoked (i.e., quit)",Original UDS question,v1-3,x,reported
+321,"A5
+Subject Health History",ALCOCCAS,"In the past three months, has the 
+subject consumed any alcohol?",Original UDS question,v3,x,reported
+322,"A5
+Subject Health History",ALCFREQ,"During the past three months, how often 
+did the subject have at least one drink 
+of any alcoholic beverage such as wine, 
+beer, malt liquor, or spirits?",Original UDS question,v3,x,reported
+323,"A5
+Subject Health History",CVHATT,Heart attack/cardiac arrest,Original UDS question,v1-3,x,reported
+325,"A5
+Subject Health History",HATTMULT,"More than one heart attack/cardiac 
+arrest?",Original UDS question,v3,x,reported
+326,"A5
+Subject Health History",HATTYEAR,Year of most recent heart attack,Original UDS question,v3,x,reported
+327,"A5
+Subject Health History",CVAFIB,Atrial fibrillation,Original UDS question,v1-3,x,reported
+328,"A5
+Subject Health History",CVANGIO,Angioplasty/endarterectomy/stent,Original UDS question,v1-3,x,reported
+329,"A5
+Subject Health History",CVBYPASS,Cardiac bypass procedure,Original UDS question,v1-3,x,reported
+330,"A5
+Subject Health History",CVPACDEF,Pacemaker and/or defibrillator,Original UDS question,v3,x,reported
+331,"A5
+Subject Health History",CVPACE,Pacemaker,Original UDS question,v1-2,x,reported
+332,"A5
+Subject Health History",CVCHF,Congestive heart failure,Original UDS question,v1-3,x,reported
+333,"A5
+Subject Health History",CVANGINA,Angina,Original UDS question,v3,x,reported
+334,"A5
+Subject Health History",CVHVALVE,Heart valve replacement or repair,Original UDS question,v3,x,reported
+335,"A5
+Subject Health History",CVOTHR,Other cardiovascular disease,Original UDS question,v1-3,x,reported
+337,"A5
+Subject Health History",CBSTROKE,Stroke,Original UDS question,v1-3,x,reported
+338,"A5
+Subject Health History",STROKMUL,"More than one stroke reported as of the 
+Initial Visit",Original UDS question,v3,x,reported
+339,"A5
+Subject Health History",NACCSTYR,"Most recently reported year of stroke as 
+of the Initial Visit",NACC derived variable,v1-3,x,reported
+340,"A5
+Subject Health History",CBTIA,Transient ischemic attack (TIA),Original UDS question,v1-3,x,reported
+341,"A5
+Subject Health History",TIAMULT,"More than one TIA reported as of the 
+Initial Visit",Original UDS question,v3,x,reported
+342,"A5
+Subject Health History",NACCTIYR,"Most recently reported year of TIA as of 
+the Initial Visit",NACC derived variable,v1-3,x,reported
+343,"A5
+Subject Health History",PD,Parkinson’s disease (PD),Original UDS question,v1-3,x,reported
+344,"A5
+Subject Health History",PDYR,Year of PD diagnosis,Original UDS question,v1-3,x,reported
+345,"A5
+Subject Health History",PDOTHR,Other parkinsonian disorder,Original UDS question,v1-3,x,reported
+346,"A5
+Subject Health History",PDOTHRYR,Year of parkinsonian disorder diagnosis,Original UDS question,v1-3,x,reported
+347,"A5
+Subject Health History",SEIZURES,Seizures,Original UDS question,v1-3,x,reported
+348,"A5
+Subject Health History",TBI,Traumatic brain injury (TBI),Original UDS question,v3,x,reported
+349,"A5
+Subject Health History",TBIBRIEF,"Traumatic brain injury (TBI) with brief 
+loss of consciousness",Original UDS question,v3,x,reported
+350,"A5
+Subject Health History",TRAUMBRF,Brain trauma — brief unconsciousness,Original UDS question,v1-2,x,reported
+351,"A5
+Subject Health History",TBIEXTEN,"TBI with extended loss of consciousness 
+— 5 minutes of longer",Original UDS question,v3,x,reported
+352,"A5
+Subject Health History",TRAUMEXT,"Brain trauma — extended 
+unconsciousness",Original UDS question,v1-2,x,reported
+353,"A5
+Subject Health History",TBIWOLOS,"TBI without loss of consciousness — as 
+might result from military detonations or 
+sports injury",Original UDS question,v3,x,reported
+354,"A5
+Subject Health History",TRAUMCHR,Brain trauma — chronic deficit,Original UDS question,v1-2,x,reported
+355,"A5
+Subject Health History",TBIYEAR,Year of most recent TBI,Original UDS question,v3,x,reported
+356,"A5
+Subject Health History",NCOTHR,Other neurological condition,Original UDS question,v1-2,x,reported
+358,"A5
+Subject Health History",DIABETES,Diabetes,Original UDS question,v1-3,x,reported
+360,"A5
+Subject Health History",DIABTYPE,"If Recent/active or Remote/inactive 
+diabetes, which type?",Original UDS question,v3,x,reported
+361,"A5
+Subject Health History",HYPERTEN,Hypertension,Original UDS question,v1-3,x,reported
+362,"A5
+Subject Health History",HYPERCHO,Hypercholesterolemia,Original UDS question,v1-3,x,reported
+363,"A5
+Subject Health History",B12DEF,Vitamin B12 deficiency,Original UDS question,v1-3,x,reported
+364,"A5
+Subject Health History",THYROID,Thyroid disease,Original UDS question,v1-3,x,reported
+365,"A5
+Subject Health History",ARTHRIT,Arthritis,Original UDS question,v3,x,reported
+366,"A5
+Subject Health History",ARTHTYPE,Type of arthritis,Original UDS question,v3,x,reported
+368,"A5
+Subject Health History",ARTHUPEX,"Arthritis, region affected — upper 
+extremity",Original UDS question,v3,x,reported
+369,"A5
+Subject Health History",ARTHLOEX,"Arthritis, region affected — lower 
+extremity",Original UDS question,v3,x,reported
+370,"A5
+Subject Health History",ARTHSPIN,"Arthritis, region affected — spine",Original UDS question,v3,x,reported
+371,"A5
+Subject Health History",ARTHUNK,Region affected — unknown,Original UDS question,v3,x,reported
+372,"A5
+Subject Health History",INCONTU,Incontinence — urinary,Original UDS question,v1-3,x,reported
+373,"A5
+Subject Health History",INCONTF,Incontinence — bowel,Original UDS question,v1-3,x,reported
+374,"A5
+Subject Health History",APNEA,"Sleep apnea history reported at Initial 
+Visit",Original UDS question,v3,x,reported
+375,"A5
+Subject Health History",RBD,"REM sleep behavior disorder (RBD) 
+history reported at Initial Visit",Original UDS question,v3,x,reported
+376,"A5
+Subject Health History",INSOMN,"Hyposomnia/insomnia history reported at 
+Initial Visit",Original UDS question,v3,x,reported
+377,"A5
+Subject Health History",OTHSLEEP,"Other sleep disorder history reported at 
+Initial Visit",Original UDS question,v3,x,reported
+379,"A5
+Subject Health History",ALCOHOL,"Alcohol abuse — clinically significant 
+occurring over a 12-month period 
+manifested in one of the following areas: 
+work, driving, legal, or social",Original UDS question,v1-3,x,reported
+380,"A5
+Subject Health History",ABUSOTHR,"Other abused substances — clinically 
+significant impairment occurring over a 
+12-month period manifested in one of 
+the following areas: work, driving, legal, 
+or social",Original UDS question,v1-3,x,reported
+382,"A5
+Subject Health History",PTSD,Post-traumatic stress disorder (PTSD),Original UDS question,v3,x,reported
+383,"A5
+Subject Health History",BIPOLAR,Bipolar disorder,Original UDS question,v3,x,reported
+384,"A5
+Subject Health History",SCHIZ,Schizophrenia,Original UDS question,v3,x,reported
+385,"A5
+Subject Health History",DEP2YRS,Active depression in the last two years,Original UDS question,v1-3,x,reported
+386,"A5
+Subject Health History",DEPOTHR,"Depression episodes more than two years 
+ago",Original UDS question,v1-3,x,reported
+387,"A5
+Subject Health History",ANXIETY,Anxiety,Original UDS question,v3,x,reported
+388,"A5
+Subject Health History",OCD,Obsessive-compulsive disorder (OCD),Original UDS question,v3,x,reported
+390,"A5
+Subject Health History",NPSYDEV,"Developmental neuropsychiatric 
+disorders (e.g., autism spectrum disorder 
+[ASD], attention-deficit hyperactivity 
+disorder [ADHD], dyslexia)",Original UDS question,v3,x,reported
+391,"A5
+Subject Health History",PSYCDIS,Other psychiatric disorder,Original UDS question,v1-3,x,reported
+393,"A5
+Subject Health History",NACCTBI,History of traumatic brain injury (TBI),NACC derived variable,v1-3,x,reported
+394,"B1
+Physical",HEIGHT,Subject’s height (inches),Original UDS question,v1-3,x,reported
+395,"B1
+Physical",WEIGHT,Subject’s weight (lbs),Original UDS question,v1-3,x,reported
+396,"B1
+Physical",NACCBMI,Body mass index (BMI),NACC derived variable,v1-3,x,reported
+397,"B1
+Physical",BPSYS,"Subject blood pressure (sitting), systolic",Original UDS question,v1-3,x,reported
+398,"B1
+Physical",BPDIAS,"Subject blood pressure (sitting), diastolic",Original UDS question,v1-3,x,reported
+399,"B1
+Physical",HRATE,Subject resting heart rate (pulse),Original UDS question,v1-3,x,reported
+400,"B1
+Physical",VISION,"Without corrective lenses, is the 
+subject’s vision functionally normal?",Original UDS question,v1-3,x,reported
+401,"B1
+Physical",VISCORR,"Does the subject usually wear corrective 
+lenses?",Original UDS question,v1-3,x,reported
+402,"B1
+Physical",VISWCORR,"If the subject usually wears corrective 
+lenses, is the subject’s vision 
+functionally normal with corrective 
+lenses?",Original UDS question,v1-3,x,reported
+403,"B1
+Physical",HEARING,"Without a hearing aid(s), is the subject’s 
+hearing functionally normal?",Original UDS question,v1-3,x,reported
+404,"B1
+Physical",HEARAID,"Does the subject usually wear a hearing 
+aid(s)?",Original UDS question,v1-3,x,reported
+405,"B1
+Physical",HEARWAID,"If the subject usually wears a hearing 
+aid(s), is the subject’s hearing 
+functionally normal with a hearing 
+aid(s)?",Original UDS question,v1-3,x,reported
+406,B2 HIS and CVD,ABRUPT,Abrupt onset (re: cognitive status),Original UDS question,v1-2,x,reported
+407,B2 HIS and CVD,STEPWISE,"Stepwise deterioration (re: cognitive 
+status)",Original UDS question,v1-2,x,reported
+408,B2 HIS and CVD,SOMATIC,Somatic complaints,Original UDS question,v1-2,x,reported
+409,B2 HIS and CVD,EMOT,Emotional incontinence,Original UDS question,v1-2,x,reported
+410,B2 HIS and CVD,HXHYPER,History or presence of hypertension,Original UDS question,v1-2,x,reported
+411,B2 HIS and CVD,HXSTROKE,History of stroke,Original UDS question,v1-2,x,reported
+412,B2 HIS and CVD,FOCLSYM,Focal neurological symptoms,Original UDS question,v1-2,x,reported
+413,B2 HIS and CVD,FOCLSIGN,Focal neurological signs,Original UDS question,v1-2,x,reported
+414,B2 HIS and CVD,HACHIN,Hachinski ischemic score,Original UDS question,v1-2,x,reported
+415,B2 HIS and CVD,CVDCOG,"Cerebrovascular disease contributing to 
+cognitive impairment",Original UDS question,v2,x,reported
+416,B2 HIS and CVD,STROKCOG,"Relationship between stroke and 
+cognitive impairment",Original UDS question,v2,x,reported
+417,B2 HIS and CVD,CVDIMAG,Imaging evidence,Original UDS question,v2,x,imaging
+418,B2 HIS and CVD,CVDIMAG1,Single strategic infarct,Original UDS question,v2,x,imaging
+419,B2 HIS and CVD,CVDIMAG2,Multiple infarcts,Original UDS question,v2,x,imaging
+421,B2 HIS and CVD,CVDIMAG3,Extensive white matter hyperintensity,Original UDS question,v2,x,imaging
+422,B2 HIS and CVD,CVDIMAG4,Other imaging evidence,Original UDS question,v2,x,imaging
+424,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",PDNORMAL,UPDRS normal,Original UDS question,v1-2,x,reported
+425,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",SPEECH,Speech,Original UDS question,v1-2,x,reported
+427,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",FACEXP,Facial expression,Original UDS question,v1-2,x,reported
+429,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRESTFAC,"Tremor at rest — face, lips, chin",Original UDS question,v1-2,x,reported
+431,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRESTRHD,Tremor at rest — right hand,Original UDS question,v1-2,x,reported
+433,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRESTLHD,Tremor at rest — left hand,Original UDS question,v1-2,x,reported
+435,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRESTRFT,Tremor at rest — right foot,Original UDS question,v1-2,x,reported
+437,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRESTLFT,Tremor at rest — left foot,Original UDS question,v1-2,x,reported
+439,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRACTRHD,Action or postural tremor — right hand,Original UDS question,v1-2,x,reported
+441,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TRACTLHD,Action or postural tremor — left hand,Original UDS question,v1-2,x,reported
+443,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",RIGDNECK,Rigidity — neck,Original UDS question,v1-2,x,reported
+445,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",RIGDUPRT,Rigidity — right upper extremity,Original UDS question,v1-2,x,reported
+448,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",RIGDUPLF,Rigidity — left upper extremity,Original UDS question,v1-2,x,reported
+450,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",RIGDLORT,Rigidity — right lower extremity,Original UDS question,v1-2,x,reported
+452,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",RIGDLOLF,Rigidity — left lower extremity,Original UDS question,v1-2,x,reported
+454,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TAPSRT,Finger taps — right hand,Original UDS question,v1-2,x,reported
+456,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",TAPSLF,Finger taps — left hand,Original UDS question,v1-2,x,reported
+458,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",HANDMOVR,Hand movements — right hand,Original UDS question,v1-2,x,reported
+460,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",HANDMOVL,Hand movements — left hand,Original UDS question,v1-2,x,reported
+462,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",HANDALTR,Alternating movement — right hand,Original UDS question,v1-2,x,reported
+464,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",HANDALTL,Alternating movement — left hand,Original UDS question,v1-2,x,reported
+466,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",LEGRT,Leg agility — right leg,Original UDS question,v1-2,x,reported
+468,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",LEGLF,Leg agility — left leg,Original UDS question,v1-2,x,reported
+470,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",ARISING,Arising from chair,Original UDS question,v1-2,x,reported
+473,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",POSTURE,Posture,Original UDS question,v1-2,x,reported
+475,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",GAIT,Gait,Original UDS question,v1-2,x,reported
+477,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",POSSTAB,Posture stability,Original UDS question,v1-2,x,reported
+479,"B3 Unified Parkinson’s Disease Rating 
+Scale (UPDRS)",BRADYKIN,Body bradykinesia and hypokinesia,Original UDS question,v1-2,x,reported
+481,"B4
+CDR® Plus NACC FTLD",MEMORY,Memory,Original UDS question,v1-3,x,reported
+482,"B4
+CDR® Plus NACC FTLD",ORIENT,Orientation,Original UDS question,v1-3,x,reported
+483,"B4
+CDR® Plus NACC FTLD",JUDGMENT,Judgment and problem-solving,Original UDS question,v1-3,x,reported
+484,"B4
+CDR® Plus NACC FTLD",COMMUN,Community affairs,Original UDS question,v1-3,x,reported
+485,"B4
+CDR® Plus NACC FTLD",HOMEHOBB,Home and hobbies,Original UDS question,v1-3,x,reported
+486,"B4
+CDR® Plus NACC FTLD",PERSCARE,Personal care,Original UDS question,v1-3,x,reported
+487,"B4
+CDR® Plus NACC FTLD",CDRSUM,CDR® sum of boxes,Original UDS question,v1-3,x,test
+488,"B4
+CDR® Plus NACC FTLD",CDRGLOB,Global CDR®,Original UDS question,v1-3,x,test
+489,"B4
+CDR® Plus NACC FTLD",COMPORT,"Behavior, comportment, and personality",Original UDS question,v2-3,x,reported
+490,"B4
+CDR® Plus NACC FTLD",CDRLANG,Language,Original UDS question,v2-3,x,reported
+491,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",NPIQINF,NPI-Q co-participant,Original UDS question,v1-3,method,method
+493,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DEL,Delusions in the last month,Original UDS question,v1-3,x,reported
+494,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DELSEV,Delusions severity,Original UDS question,v1-3,x,reported
+495,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",HALL,Hallucinations in the last month,Original UDS question,v1-3,x,reported
+496,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",HALLSEV,Hallucinations severity,Original UDS question,v1-3,x,reported
+497,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",AGIT,Agitation or aggression in the last month,Original UDS question,v1-3,x,reported
+498,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",AGITSEV,Agitation or aggression severity,Original UDS question,v1-3,x,reported
+499,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DEPD,"Depression or dysphoria in the last 
+month",Original UDS question,v1-3,x,reported
+500,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DEPDSEV,Depression or dysphoria severity,Original UDS question,v1-3,x,reported
+501,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",ANX,Anxiety in the last month,Original UDS question,v1-3,x,reported
+503,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",ANXSEV,Anxiety severity,Original UDS question,v1-3,x,reported
+504,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",ELAT,Elation or euphoria in the last month,Original UDS question,v1-3,x,reported
+505,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",ELATSEV,Elation or euphoria severity,Original UDS question,v1-3,x,reported
+506,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",APA,Apathy or indifference in the last month,Original UDS question,v1-3,x,reported
+507,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",APASEV,Apathy or indifference severity,Original UDS question,v1-3,x,reported
+508,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DISN,Disinhibition in the last month,Original UDS question,v1-3,x,reported
+509,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",DISNSEV,Disinhibition severity,Original UDS question,v1-3,x,reported
+510,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",IRR,Irritability or lability in the last month,Original UDS question,v1-3,x,reported
+511,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",IRRSEV,Irritability or lability severity,Original UDS question,v1-3,x,reported
+512,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",MOT,Motor disturbance in the last month,Original UDS question,v1-3,x,reported
+513,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",MOTSEV,Motor disturbance severity,Original UDS question,v1-3,x,reported
+514,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",NITE,Nighttime behaviors in the last month,Original UDS question,v1-3,x,reported
+515,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",NITESEV,Nighttime behaviors severity,Original UDS question,v1-3,x,reported
+516,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",APP,"Appetite and eating problems in the last 
+month",Original UDS question,v1-3,x,reported
+517,"B5 Neuropsychiatric Inventory 
+Questionnaire (NPI-Q)",APPSEV,Appetite and eating severity,Original UDS question,v1-3,x,reported
+518,"B6
+Geriatric Depression Scale (GDS)",NOGDS,"Is the subject able to complete the GDS, 
+based on the clinician’s best judgment?",Original UDS question,v1-3,method,method
+519,"B6
+Geriatric Depression Scale (GDS)",SATIS,Are you basically satisfied with your life?,Original UDS question,v1-3,x,reported
+520,"B6
+Geriatric Depression Scale (GDS)",DROPACT,"Have you dropped many of your activities 
+and interests?",Original UDS question,v1-3,x,reported
+521,"B6
+Geriatric Depression Scale (GDS)",EMPTY,Do you feel that your life is empty?,Original UDS question,v1-3,x,reported
+522,"B6
+Geriatric Depression Scale (GDS)",BORED,Do you often get bored?,Original UDS question,v1-3,x,reported
+523,"B6
+Geriatric Depression Scale (GDS)",SPIRITS,Are you in good spirits most of the time?,Original UDS question,v1-3,x,reported
+524,"B6
+Geriatric Depression Scale (GDS)",AFRAID,"Are you afraid that something bad is 
+going to happen to you?",Original UDS question,v1-3,x,reported
+525,"B6
+Geriatric Depression Scale (GDS)",HAPPY,Do you feel happy most of the time?,Original UDS question,v1-3,x,reported
+526,"B6
+Geriatric Depression Scale (GDS)",HELPLESS,Do you often feel helpless?,Original UDS question,v1-3,x,reported
+527,"B6
+Geriatric Depression Scale (GDS)",STAYHOME,"Do you prefer to stay at home, rather 
+than going out and doing new things?",Original UDS question,v1-3,x,reported
+528,"B6
+Geriatric Depression Scale (GDS)",MEMPROB,"Do you feel you have more problems with 
+memory than most?",Original UDS question,v1-3,x,reported
+529,"B6
+Geriatric Depression Scale (GDS)",WONDRFUL,"Do you think it is wonderful to be alive 
+now?",Original UDS question,v1-3,x,reported
+531,"B6
+Geriatric Depression Scale (GDS)",WRTHLESS,"Do you feel pretty worthless the way you 
+are now?",Original UDS question,v1-3,x,reported
+532,"B6
+Geriatric Depression Scale (GDS)",ENERGY,Do you feel full of energy?,Original UDS question,v1-3,x,reported
+533,"B6
+Geriatric Depression Scale (GDS)",HOPELESS,"Do you feel that your situation is 
+hopeless?",Original UDS question,v1-3,x,reported
+534,"B6
+Geriatric Depression Scale (GDS)",BETTER,"Do you think that most people are better 
+off than you are?",Original UDS question,v1-3,x,reported
+535,"B6
+Geriatric Depression Scale (GDS)",NACCGDS,Total GDS Score,NACC derived variable,v1-3,x,reported
+536,"B7
+Functional Activities Questionnaire 
+(FAQ)",BILLS,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Writing checks, paying bills, or balancing 
+a checkbook",Original UDS question,v1-3,x,reported
+537,"B7
+Functional Activities Questionnaire 
+(FAQ)",TAXES,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Assembling tax records, business affairs, 
+or other paper",Original UDS question,v1-3,x,reported
+538,"B7
+Functional Activities Questionnaire 
+(FAQ)",SHOPPING,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Shopping alone for clothes, household 
+necessities, or groceries",Original UDS question,v1-3,x,reported
+539,"B7
+Functional Activities Questionnaire 
+(FAQ)",GAMES,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Playing a game of skill such as bridge or 
+chess, working on a hobby",Original UDS question,v1-3,x,reported
+540,"B7
+Functional Activities Questionnaire 
+(FAQ)",STOVE,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Heating water, making a cup of coffee, 
+turning off the stove",Original UDS question,v1-3,x,reported
+541,"B7
+Functional Activities Questionnaire 
+(FAQ)",MEALPREP,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Preparing a balanced meal",Original UDS question,v1-3,x,reported
+542,"B7
+Functional Activities Questionnaire 
+(FAQ)",EVENTS,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Keeping track of current events",Original UDS question,v1-3,x,reported
+543,"B7
+Functional Activities Questionnaire 
+(FAQ)",PAYATTN,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Paying attention to and understanding a 
+TV program, book, or magazine",Original UDS question,v1-3,x,reported
+544,"B7
+Functional Activities Questionnaire 
+(FAQ)",REMDATES,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Remembering appointments, family 
+occasions, holidays, medications",Original UDS question,v1-3,x,reported
+545,"B7
+Functional Activities Questionnaire 
+(FAQ)",TRAVEL,"In the past four weeks, did the subject 
+have any difficulty or need help with: 
+Traveling out of the neighborhood, 
+driving, or arranging to take public 
+transportation",Original UDS question,v1-3,x,reported
+546,"B8
+Physical/Neurological Exam 
+Findings",NACCNREX,Were all findings unremarkable?,NACC derived variable,v1-3,x,reported
+547,"B8
+Physical/Neurological Exam 
+Findings",NORMEXAM,"Were there abnormal neurological exam 
+findings?",Original UDS question,v3,x,reported
+549,"B8
+Physical/Neurological Exam 
+Findings",FOCLDEF,"Are focal deficits present indicative of 
+central nervous system disorder?",Original UDS question,v1-2,x,reported
+550,"B8
+Physical/Neurological Exam 
+Findings",GAITDIS,"Is gait disorder present indicative of 
+central nervous system disorder?",Original UDS question,v1-2,x,reported
+551,"B8
+Physical/Neurological Exam 
+Findings",EYEMOVE,"Are there eye movement abnormalities 
+present indicative of central nervous 
+system disorder?",Original UDS question,v1-2,x,reported
+552,"B8
+Physical/Neurological Exam 
+Findings",PARKSIGN,Parkinsonian signs,Original UDS question,v3,x,reported
+553,"B8
+Physical/Neurological Exam 
+Findings",RESTTRL,Resting tremor — left arm,Original UDS question,v3,x,reported
+554,"B8
+Physical/Neurological Exam 
+Findings",RESTTRR,Resting tremor — right arm,Original UDS question,v3,x,reported
+555,"B8
+Physical/Neurological Exam 
+Findings",SLOWINGL,"Slowing of fine motor movements — left 
+side",Original UDS question,v3,x,reported
+556,"B8
+Physical/Neurological Exam 
+Findings",SLOWINGR,"Slowing of fine motor movements — 
+right side",Original UDS question,v3,x,reported
+557,"B8
+Physical/Neurological Exam 
+Findings",RIGIDL,Rigidity — left arm,Original UDS question,v3,x,reported
+558,"B8
+Physical/Neurological Exam 
+Findings",RIGIDR,Rigidity — right arm,Original UDS question,v3,x,reported
+559,"B8
+Physical/Neurological Exam 
+Findings",BRADY,Bradykinesia,Original UDS question,v3,x,reported
+560,"B8
+Physical/Neurological Exam 
+Findings",PARKGAIT,Parkinsonian gait disorder,Original UDS question,v3,x,reported
+561,"B8
+Physical/Neurological Exam 
+Findings",POSTINST,Postural instability,Original UDS question,v3,x,reported
+562,"B8
+Physical/Neurological Exam 
+Findings",CVDSIGNS,"Neurological sign considered by 
+examiner to be most likely consistent 
+with cerebrovascular disease",Original UDS question,v3,x,reported
+563,"B8
+Physical/Neurological Exam 
+Findings",CORTDEF,"Cortical cognitive deficit (e.g., aphasia, 
+apraxia, neglect)",Original UDS question,v3,x,reported
+564,"B8
+Physical/Neurological Exam 
+Findings",SIVDFIND,"Focal or other neurological findings 
+consistent with SIVD (subcortical 
+ischemic vascular dementia)",Original UDS question,v3,x,reported
+565,"B8
+Physical/Neurological Exam 
+Findings",CVDMOTL,"Motor (may include weakness of 
+combination of face, arm, and leg; reflex 
+changes, etc.) — left side",Original UDS question,v3,x,reported
+566,"B8
+Physical/Neurological Exam 
+Findings",CVDMOTR,"Motor (may include weakness of 
+combination of face, arm, and leg; reflex 
+changes, etc.) — right side",Original UDS question,v3,x,reported
+567,"B8
+Physical/Neurological Exam 
+Findings",CORTVISL,Cortical visual field loss — left side,Original UDS question,v3,x,reported
+568,"B8
+Physical/Neurological Exam 
+Findings",CORTVISR,Cortical visual field loss — right side,Original UDS question,v3,x,reported
+569,"B8
+Physical/Neurological Exam 
+Findings",SOMATL,Somatosensory loss — left side,Original UDS question,v3,x,reported
+570,"B8
+Physical/Neurological Exam 
+Findings",SOMATR,Somatosensory loss — right side,Original UDS question,v3,x,reported
+572,"B8
+Physical/Neurological Exam 
+Findings",POSTCORT,"Higher cortical visual problem suggesting 
+posterior cortical atrophy (e.g., 
+prosopagnosia, simultagnosia, Balint’s 
+syndrome) or apraxia of gaze",Original UDS question,v3,x,reported
+573,"B8
+Physical/Neurological Exam 
+Findings",PSPCBS,"Findings suggestive of progressive 
+supranuclear palsy (PSP), corticobasal 
+syndrome (CBS), or other related 
+disorders",Original UDS question,v3,x,reported
+574,"B8
+Physical/Neurological Exam 
+Findings",EYEPSP,"Eye movement changes consistent with 
+PSP",Original UDS question,v3,x,reported
+575,"B8
+Physical/Neurological Exam 
+Findings",DYSPSP,Dysarthria consistent with PSP,Original UDS question,v3,x,reported
+576,"B8
+Physical/Neurological Exam 
+Findings",AXIALPSP,Axial rigidity consistent with PSP,Original UDS question,v3,x,reported
+577,"B8
+Physical/Neurological Exam 
+Findings",GAITPSP,Gait disorder consistent with PSP,Original UDS question,v3,x,reported
+578,"B8
+Physical/Neurological Exam 
+Findings",APRAXSP,Apraxia of speech,Original UDS question,v3,x,reported
+579,"B8
+Physical/Neurological Exam 
+Findings",APRAXL,Apraxia consistent with CBS — left side,Original UDS question,v3,x,reported
+580,"B8
+Physical/Neurological Exam 
+Findings",APRAXR,Apraxia consistent with CBS — right side,Original UDS question,v3,x,reported
+581,"B8
+Physical/Neurological Exam 
+Findings",CORTSENL,"Cortical sensory deficits consistent with 
+CBS — left side",Original UDS question,v3,x,reported
+582,"B8
+Physical/Neurological Exam 
+Findings",CORTSENR,"Cortical sensory deficits consistent with 
+CBS — right side",Original UDS question,v3,x,reported
+583,"B8
+Physical/Neurological Exam 
+Findings",ATAXL,Ataxia consistent with CBS — left side,Original UDS question,v3,x,reported
+584,"B8
+Physical/Neurological Exam 
+Findings",ATAXR,Ataxia consistent with CBS — right side,Original UDS question,v3,x,reported
+585,"B8
+Physical/Neurological Exam 
+Findings",ALIENLML,"Alien limb consistent with CBS — left 
+side",Original UDS question,v3,x,reported
+586,"B8
+Physical/Neurological Exam 
+Findings",ALIENLMR,"Alien limb consistent with CBS — right 
+side",Original UDS question,v3,x,reported
+587,"B8
+Physical/Neurological Exam 
+Findings",DYSTONL,"Dystonia consistent with CBS, PSP, or 
+related disorder — left side",Original UDS question,v3,x,reported
+588,"B8
+Physical/Neurological Exam 
+Findings",DYSTONR,"Dystonia consistent with CBS, PSP, or 
+related disorder — right side",Original UDS question,v3,x,reported
+589,"B8
+Physical/Neurological Exam 
+Findings",MYOCLLT,"Myoclonus consistent with CBS — left 
+side",Original UDS question,v3,x,reported
+590,"B8
+Physical/Neurological Exam 
+Findings",MYOCLRT,"Myoclonus consistent with CBS — right 
+side",Original UDS question,v3,x,reported
+591,"B8
+Physical/Neurological Exam 
+Findings",ALSFIND,"Findings suggesting ALS (e.g., muscle 
+wasting, fasciculations, upper motor and/
+or lower motor neuron signs)",Original UDS question,v3,x,reported
+592,"B8
+Physical/Neurological Exam 
+Findings",GAITNPH,"Normal pressure hydrocephalus — gait 
+apraxia",Original UDS question,v3,x,reported
+593,"B8
+Physical/Neurological Exam 
+Findings",OTHNEUR,"Other findings (e.g., cerebella ataxia, 
+chorea, myoclonus)",Original UDS question,v3,x,reported
+596,"B9
+Clinician Judgment of Symptoms",B9CHG,"Indicate changes in information reported 
+at previous visit",Original UDS question,v1,x,reported
+597,"B9
+Clinician Judgment of Symptoms",DECSUB,"Does the subject report a decline in 
+memory (relative to previously attained 
+abilities)?",Original UDS question,v1-3,x,reported
+598,"B9
+Clinician Judgment of Symptoms",DECIN,"Does the co-participant report a 
+decline in subject’s memory (relative to 
+previously attained abilities)?",Original UDS question,v1-3,x,reported
+599,"B9
+Clinician Judgment of Symptoms",DECCLIN,"Clinician believes there is a meaningful 
+decline in memory, non-memory 
+cognitive abilities, behavior, ability to 
+manage his/her affairs, or there are 
+motor/movement changes",Original UDS question,v1-2,x,reported
+600,"B9
+Clinician Judgment of Symptoms",DECCLCOG,"Based on the clinician’s judgment, 
+is the subject currently experiencing 
+meaningful impairment in cognition?",Original UDS question,v3,x,reported
+601,"B9
+Clinician Judgment of Symptoms",COGMEM,"Indicate whether the subject currently 
+is meaningfully impaired, relative to 
+previously attained abilities, in memory",Original UDS question,v1-3,x,reported
+602,"B9
+Clinician Judgment of Symptoms",COGORI,"Indicate whether the subject is 
+meaningfully impaired, relative 
+to previously attained abilities, in 
+orientation",Original UDS question,v3,x,reported
+603,"B9
+Clinician Judgment of Symptoms",COGJUDG,"Indicate whether the subject currently 
+is meaningfully impaired, relative to 
+previously attained abilities, in executive 
+function — judgment, planning, or 
+problem-solving",Original UDS question,v1-3,x,reported
+604,"B9
+Clinician Judgment of Symptoms",COGLANG,"Indicate whether the subject currently 
+is meaningfully impaired, relative to 
+previously attained abilities, in language",Original UDS question,v1-3,x,reported
+605,"B9
+Clinician Judgment of Symptoms",COGVIS,"Indicate whether the subject currently 
+is meaningfully impaired, relative 
+to previously attained abilities, in 
+visuospatial function",Original UDS question,v1-3,x,reported
+606,"B9
+Clinician Judgment of Symptoms",COGATTN,"Indicate whether the subject currently 
+is meaningfully impaired, relative to 
+previously attained abilities, in attention 
+or concentration",Original UDS question,v1-3,x,reported
+607,"B9
+Clinician Judgment of Symptoms",COGFLUC,"Indicate whether the subject currently 
+has fluctuating cognition",Original UDS question,v2-3,x,reported
+608,"B9
+Clinician Judgment of Symptoms",COGFLAGO,"At what age did the fluctuating cognition 
+begin?",Original UDS question,v3,x,reported
+609,"B9
+Clinician Judgment of Symptoms",COGOTHR,"Indicate whether the subject currently 
+is meaningfully impaired, relative to 
+previously attained abilities, in other 
+cognitive domains",Original UDS question,v1-3,x,reported
+612,"B9
+Clinician Judgment of Symptoms",NACCCOGF,"Indicate the predominant symptom that 
+was first recognized as a decline in the 
+subject’s cognition",NACC derived variable,v1-3,x,reported
+614,"B9
+Clinician Judgment of Symptoms",COGMODE,Mode of onset of cognitive symptoms,Original UDS question,v1-3,x,reported
+616,"B9
+Clinician Judgment of Symptoms",DECAGE,"Based on clinician’s assessment, at what 
+age did the cognitive decline begin?",Original UDS question,v1-3,x,reported
+617,"B9
+Clinician Judgment of Symptoms",DECCLBE,"Based on clinician’s judgment, is the 
+subject currently experiencing any kind 
+of behavioral symptoms?",Original UDS question,v3,x,reported
+618,"B9
+Clinician Judgment of Symptoms",BEAPATHY,"Subject currently manifests meaningful 
+change in behavior — Apathy, withdrawal",Original UDS question,v1-3,x,reported
+619,"B9
+Clinician Judgment of Symptoms",BEDEP,"Subject currently manifests meaningful 
+change in behavior — Depressed mood",Original UDS question,v1-3,x,reported
+620,"B9
+Clinician Judgment of Symptoms",BEVHALL,"Subject currently manifests meaningful 
+change in behavior — Psychosis — 
+Visual hallucinations",Original UDS question,v1-3,x,reported
+621,"B9
+Clinician Judgment of Symptoms",BEVWELL,"If yes, are the hallucinations well-formed 
+and detailed?",Original UDS question,v2-3,x,reported
+622,"B9
+Clinician Judgment of Symptoms",BEVHAGO,"If well-formed, clear-cut visual 
+hallucinations, at what age did these 
+hallucinations begin?",Original UDS question,v3,x,reported
+623,"B9
+Clinician Judgment of Symptoms",BEAHALL,"Subject currently manifests meaningful 
+change in behavior — Psychosis — 
+Auditory hallucinations",Original UDS question,v1-3,x,reported
+624,"B9
+Clinician Judgment of Symptoms",BEDEL,"Subject currently manifests meaningful 
+change in behavior — Psychosis — 
+Abnormal, false, or delusional beliefs",Original UDS question,v1-3,x,reported
+625,"B9
+Clinician Judgment of Symptoms",BEDISIN,"Subject currently manifests meaningful 
+change in behavior — Disinhibition",Original UDS question,v1-3,x,reported
+626,"B9
+Clinician Judgment of Symptoms",BEIRRIT,"Subject currently manifests meaningful 
+change in behavior — Irritability",Original UDS question,v1-3,x,reported
+627,"B9
+Clinician Judgment of Symptoms",BEAGIT,"Subject currently manifests meaningful 
+change in behavior — Agitation",Original UDS question,v1-3,x,reported
+628,"B9
+Clinician Judgment of Symptoms",BEPERCH,"Subject currently manifests meaningful 
+change in behavior — Personality change",Original UDS question,v1-3,x,reported
+629,"B9
+Clinician Judgment of Symptoms",BEREM,"Subject currently manifests meaningful 
+change in behavior — REM sleep 
+behavior disorder",Original UDS question,v2-3,x,reported
+630,"B9
+Clinician Judgment of Symptoms",BEREMAGO,"If yes, at what age did the REM sleep 
+behavior disorder begin?",Original UDS question,v3,x,reported
+631,"B9
+Clinician Judgment of Symptoms",BEANX,"Subject currently manifests meaningful 
+change in behavior — Anxiety",Original UDS question,v3,x,reported
+632,"B9
+Clinician Judgment of Symptoms",BEOTHR,"Subject currently manifests meaningful 
+change in behavior — Other",Original UDS question,v1-3,x,reported
+635,"B9
+Clinician Judgment of Symptoms",NACCBEHF,"Indicate the predominant symptom that 
+was first recognized as a decline in the 
+subject’s behavior",NACC derived variable,v1-3,x,reported
+637,"B9
+Clinician Judgment of Symptoms",BEMODE,Mode of onset of behavioral symptoms,Original UDS question,v1-3,x,reported
+639,"B9
+Clinician Judgment of Symptoms",BEAGE,"Based on the clinician’s assessment, at 
+what age did the behavioral symptoms 
+begin?",Original UDS question,v3,x,reported
+640,"B9
+Clinician Judgment of Symptoms",DECCLMOT,"Based on the clinician’s judgment, is the 
+subject currently experiencing any motor 
+symptoms?",Original UDS question,v3,x,reported
+641,"B9
+Clinician Judgment of Symptoms",MOGAIT,"Indicate whether the subject currently 
+has meaningful changes in motor 
+function — Gait disorder",Original UDS question,v1-3,x,reported
+642,"B9
+Clinician Judgment of Symptoms",MOFALLS,"Indicate whether the subject currently 
+has meaningful changes in motor 
+function — Falls",Original UDS question,v1-3,x,reported
+643,"B9
+Clinician Judgment of Symptoms",MOTREM,"Indicate whether the subject currently 
+has meaningful changes in motor 
+function — Tremor",Original UDS question,v1-3,x,reported
+644,"B9
+Clinician Judgment of Symptoms",MOSLOW,"Indicate whether the subject currently 
+has meaningful changes in motor 
+function — Slowness",Original UDS question,v1-3,x,reported
+645,"B9
+Clinician Judgment of Symptoms",NACCMOTF,"Indicate the predominant symptom that 
+was first recognized as a decline in the 
+subject’s motor function",NACC derived variable,v1-3,x,reported
+646,"B9
+Clinician Judgment of Symptoms",MOMODE,Mode of onset of motor symptoms,Original UDS question,v1-3,x,reported
+648,"B9
+Clinician Judgment of Symptoms",MOMOPARK,"Were changes in motor function 
+suggestive of Parkinsonism?",Original UDS question,v2-3,x,reported
+649,"B9
+Clinician Judgment of Symptoms",PARKAGE,"If yes, at what age did the motor 
+symptoms suggestive of Parkinsonism 
+begin?",Original UDS question,v3,x,reported
+650,"B9
+Clinician Judgment of Symptoms",MOMOALS,"Were changes in motor function 
+suggestive of amyotrophic lateral 
+sclerosis?",Original UDS question,v3,x,reported
+651,"B9
+Clinician Judgment of Symptoms",ALSAGE,"If yes, at what age did the motor 
+symptoms suggestive of ALS begin?",Original UDS question,v3,x,reported
+652,"B9
+Clinician Judgment of Symptoms",MOAGE,"Based on the clinician’s assessment, at 
+what age did the motor changes begin?",Original UDS question,v3,x,reported
+653,"B9
+Clinician Judgment of Symptoms",COURSE,"Overall course of decline of cognitive/
+behavioral/motor syndrome",Original UDS question,v1-3,x,reported
+655,"B9
+Clinician Judgment of Symptoms",FRSTCHG,"Indicate the predominant domain that 
+was first recognized as changed in the 
+subject",Original UDS question,v1-3,x,reported
+656,"B9
+Clinician Judgment of Symptoms",LBDEVAL,"Is the subject a potential candidate for 
+further evaluation for Lewy body disease?",Original UDS question,v3,x,reported
+657,"B9
+Clinician Judgment of Symptoms",FTLDEVAL,"Is the subject a potential candidate for 
+further evaluation for frontotemporal 
+lobar degeneration?",Original UDS question,v3,x,reported
+658,"C1
+Neuropsychological Battery 
+Summary Scores",MMSECOMP,Was any part of the MMSE completed?,Original UDS question,v3,method,method
+659,"C1
+Neuropsychological Battery 
+Summary Scores",MMSELOC,Administration of the MMSE was:,Original UDS question,v1-3,method,method
+660,"C1
+Neuropsychological Battery 
+Summary Scores",MMSELAN,Language of MMSE administration,Original UDS question,v1-3,x,test
+662,"C1
+Neuropsychological Battery 
+Summary Scores",MMSEVIS,"Subject was unable to complete one or 
+more sections due to visual impairment",Original UDS question,v3,x,test
+663,"C1
+Neuropsychological Battery 
+Summary Scores",MMSEHEAR,"Subject was unable to complete one or 
+more sections due to hearing impairment",Original UDS question,v3,x,test
+664,"C1
+Neuropsychological Battery 
+Summary Scores",MMSEORDA,Orientation subscale score — Time,Original UDS question,v1-3,x,test
+665,"C1
+Neuropsychological Battery 
+Summary Scores",MMSEORLO,Orientation subscale score — Place,Original UDS question,v1-3,x,test
+666,"C1
+Neuropsychological Battery 
+Summary Scores",PENTAGON,Intersecting pentagon subscale score,Original UDS question,v2-3,x,test
+667,"C1
+Neuropsychological Battery 
+Summary Scores",NACCMMSE,Total MMSE score (using D-L-R-O-W),NACC derived variable,v1-3,x,test
+668,"C1
+Neuropsychological Battery 
+Summary Scores",NPSYCLOC,"The remainder of the battery was 
+administered:",Original UDS question,v1-3,method,method
+669,"C1
+Neuropsychological Battery 
+Summary Scores",NPSYLAN,Language of test administration,Original UDS question,v1-3,x,test
+671,"C1
+Neuropsychological Battery 
+Summary Scores",LOGIMO,"If this test has been administered to 
+the subject within the past 3 months, 
+specify the date previously administered 
+(month)",Original UDS question,v1-3,x,test
+672,"C1
+Neuropsychological Battery 
+Summary Scores",LOGIDAY,"If this test has been administered to 
+the subject within the past 3 months, 
+specify the date previously administered 
+(day)",Original UDS question,v1-3,x,test
+673,"C1
+Neuropsychological Battery 
+Summary Scores",LOGIYR,"If this test has been administered to 
+the subject within the past 3 months, 
+specify the date previously administered 
+(year)",Original UDS question,v1-3,x,test
+674,"C1
+Neuropsychological Battery 
+Summary Scores",LOGIPREV,"Total score from the previous test 
+administration",Original UDS question,v1-3,x,test
+675,"C1
+Neuropsychological Battery 
+Summary Scores",LOGIMEM,"Total number of story units recalled from 
+this current test administration",Original UDS question,v1-3,x,test
+677,"C1
+Neuropsychological Battery 
+Summary Scores",MEMUNITS,"Logical Memory IIA — Delayed — Total 
+number of story units recalled",Original UDS question,v1-3,x,test
+678,"C1
+Neuropsychological Battery 
+Summary Scores",MEMTIME,"Logical Memory IIA — Delayed — Time 
+elapsed since Logical Memory IA — 
+Immediate",Original UDS question,v1-3,x,test
+679,"C1
+Neuropsychological Battery 
+Summary Scores",UDSBENTC,Total score for copy of Benson figure,Original UDS question,v3,x,test
+680,"C1
+Neuropsychological Battery 
+Summary Scores",UDSBENTD,"Total score for 10- to 15-minute delayed 
+drawing of Benson figure",Original UDS question,v3,x,test
+681,"C1
+Neuropsychological Battery 
+Summary Scores",UDSBENRS,"Recognized original stimulus from 
+among four options",Original UDS question,v3,x,test
+682,"C1
+Neuropsychological Battery 
+Summary Scores",DIGIF,Digit span forward trials correct,Original UDS question,v1-3,x,test
+683,"C1
+Neuropsychological Battery 
+Summary Scores",DIGIFLEN,Digit span forward length,Original UDS question,v1-3,x,test
+684,"C1
+Neuropsychological Battery 
+Summary Scores",DIGIB,Digit span backward trials correct,Original UDS question,v1-3,x,test
+685,"C1
+Neuropsychological Battery 
+Summary Scores",DIGIBLEN,Digit span backward length,Original UDS question,v1-3,x,test
+686,"C1
+Neuropsychological Battery 
+Summary Scores",ANIMALS,"Animals — Total number of animals 
+named in 60 seconds",Original UDS question,v1-3,x,test
+687,"C1
+Neuropsychological Battery 
+Summary Scores",VEG,"Vegetable — Total number of vegetables 
+named in 60 seconds",Original UDS question,v1-3,x,test
+688,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILA,"Trail Making Test Part A — Total number 
+of seconds to complete",Original UDS question,v1-3,x,test
+689,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILARR,Part A — Number of commission errors,Original UDS question,v2-3,x,test
+690,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILALI,Part A — Number of correct lines,Original UDS question,v2-3,x,test
+691,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILB,"Trail Making Test Part B — Total number 
+of seconds to complete",Original UDS question,v1-3,x,test
+692,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILBRR,Part B — Number of commission errors,Original UDS question,v2-3,x,test
+693,"C1
+Neuropsychological Battery 
+Summary Scores",TRAILBLI,Part B — Number of correct lines,Original UDS question,v2-3,x,test
+694,"C1
+Neuropsychological Battery 
+Summary Scores",WAIS,WAIS-R Digit Symbol,Original UDS question,v1-2,x,test
+695,"C1
+Neuropsychological Battery 
+Summary Scores",BOSTON,Boston Naming Test (30) — Total score,Original UDS question,v1-3,x,test
+696,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERFC,"Number of correct F-words generated in 
+1 minute",Original UDS question,v3,x,test
+697,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERFN,Number of F-words repeated in 1 minute,Original UDS question,v3,x,test
+698,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERNF,"Number of non-F-words and rule 
+violation errors in 1 minute",Original UDS question,v3,x,test
+699,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERLC,"Number of correct L-words generated in 
+1 minute",Original UDS question,v3,x,test
+700,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERLR,Number of L-words repeated in 1 minute,Original UDS question,v3,x,test
+702,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERLN,"Number of non-L-words and rule 
+violation errors in 1 minute",Original UDS question,v3,x,test
+703,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERTN,"Total number of correct F-words and 
+L-words",Original UDS question,v3,x,test
+704,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERTE,"Total number of F-word and L-word 
+repetition errors",Original UDS question,v3,x,test
+705,"C1
+Neuropsychological Battery 
+Summary Scores",UDSVERTI,"Total number of non-F/L-words and rule 
+violation errors",Original UDS question,v3,x,test
+706,"C1
+Neuropsychological Battery 
+Summary Scores",COGSTAT,"Per clinician, based on the 
+neuropsychological examination, the 
+subject’s cognitive status is deemed",Original UDS question,v1-3,x,test
+707,"C1
+Neuropsychological Battery 
+Summary Scores",NACCC1,"Form date discrepancy between UDS 
+Form A1 and Form C1",NACC derived variable,v1-3,method,method
+708,"C2
+Neuropsychological Battery Scores",MOCACOMP,Was any part of MoCA administered?,Original UDS question,v3,method,method
+709,"C2
+Neuropsychological Battery Scores",MOCAREAS,"If no part of MoCA administered, reason 
+code",Original UDS question,v3,x,test
+710,"C2
+Neuropsychological Battery Scores",MOCALOC,Where was MoCA administered?,Original UDS question,v3,method,method
+711,"C2
+Neuropsychological Battery Scores",MOCALAN,Language of MoCA administration,Original UDS question,v3,x,test
+712,"C2
+Neuropsychological Battery Scores",MOCALANX,"Language of MoCA administration — 
+Other, specify",Original UDS question,v3,method,method
+713,"C2
+Neuropsychological Battery Scores",MOCAVIS,"Subject was unable to complete one or 
+more sections due to visual impairment",Original UDS question,v3,x,test
+714,"C2
+Neuropsychological Battery Scores",MOCAHEAR,"Subject was unable to complete one or 
+more sections due to hearing impairment",Original UDS question,v3,x,test
+715,"C2
+Neuropsychological Battery Scores",MOCATOTS,MoCA Total Raw Score — uncorrected,Original UDS question,v3,x,test
+716,"C2
+Neuropsychological Battery Scores",NACCMOCA,"MoCA Total Score — corrected for 
+education",NACC derived variable,v3,x,test
+717,"C2
+Neuropsychological Battery Scores",MOCATRAI,MoCA: Visuospatial/executive — Trails,Original UDS question,v3,x,test
+718,"C2
+Neuropsychological Battery Scores",MOCACUBE,MoCA: Visuospatial/executive — Cube,Original UDS question,v3,x,test
+719,"C2
+Neuropsychological Battery Scores",MOCACLOC,"MoCA: Visuospatial/executive — Clock 
+contour",Original UDS question,v3,x,test
+720,"C2
+Neuropsychological Battery Scores",MOCACLON,"MoCA: Visuospatial/executive — Clock 
+numbers",Original UDS question,v3,x,test
+721,"C2
+Neuropsychological Battery Scores",MOCACLOH,"MoCA: Visuospatial/executive — Clock 
+hands",Original UDS question,v3,x,test
+722,"C2
+Neuropsychological Battery Scores",MOCANAMI,MoCA: Language — Naming,Original UDS question,v3,x,test
+723,"C2
+Neuropsychological Battery Scores",MOCAREGI,"MoCA: Memory — Registration (two 
+trials)",Original UDS question,v3,x,test
+724,"C2
+Neuropsychological Battery Scores",MOCADIGI,MoCA: Attention — Digits,Original UDS question,v3,x,test
+725,"C2
+Neuropsychological Battery Scores",MOCALETT,MoCA: Attention — Letter A,Original UDS question,v3,x,test
+726,"C2
+Neuropsychological Battery Scores",MOCASER7,MoCA: Attention — Serial 7s,Original UDS question,v3,x,test
+727,"C2
+Neuropsychological Battery Scores",MOCAREPE,MoCA: Language — Repetition,Original UDS question,v3,x,test
+728,"C2
+Neuropsychological Battery Scores",MOCAFLUE,MoCA: Language — Fluency,Original UDS question,v3,x,test
+729,"C2
+Neuropsychological Battery Scores",MOCAABST,MoCA: Abstraction,Original UDS question,v3,x,test
+730,"C2
+Neuropsychological Battery Scores",MOCARECN,MoCA: Delayed recall — No cue,Original UDS question,v3,x,test
+731,"C2
+Neuropsychological Battery Scores",MOCARECC,MoCA: Delayed recall — Category cue,Original UDS question,v3,x,test
+733,"C2
+Neuropsychological Battery Scores",MOCARECR,MoCA: Delayed recall — Recognition,Original UDS question,v3,x,test
+734,"C2
+Neuropsychological Battery Scores",MOCAORDT,MoCA: Orientation — Date,Original UDS question,v3,x,test
+735,"C2
+Neuropsychological Battery Scores",MOCAORMO,MoCA: Orientation — Month,Original UDS question,v3,x,test
+736,"C2
+Neuropsychological Battery Scores",MOCAORYR,MoCA: Orientation — Year,Original UDS question,v3,x,test
+737,"C2
+Neuropsychological Battery Scores",MOCAORDY,MoCA: Orientation — Day,Original UDS question,v3,x,test
+738,"C2
+Neuropsychological Battery Scores",MOCAORPL,MoCA: Orientation — Place,Original UDS question,v3,x,test
+739,"C2
+Neuropsychological Battery Scores",MOCAORCT,MoCA: Orientation — City,Original UDS question,v3,x,test
+743,"C2
+Neuropsychological Battery Scores",CRAFTVRS,"Craft Story 21 Recall (Immediate) — 
+Total story units recalled, verbatim 
+scoring",Original UDS question,v3,x,test
+744,"C2
+Neuropsychological Battery Scores",CRAFTURS,"Craft Story 21 Recall (Immediate) — 
+Total story units recalled, paraphrase 
+scoring",Original UDS question,v3,x,test
+746,"C2
+Neuropsychological Battery Scores",DIGFORCT,"Number Span Test: Forward — Number 
+of correct trials",Original UDS question,v3,x,test
+747,"C2
+Neuropsychological Battery Scores",DIGFORSL,"Number Span Test: Forward — Longest 
+span forward",Original UDS question,v3,x,test
+748,"C2
+Neuropsychological Battery Scores",DIGBACCT,"Number Span Test: Backward — Number 
+of correct trials",Original UDS question,v3,x,test
+749,"C2
+Neuropsychological Battery Scores",DIGBACLS,"Number Span Test: Backward — Longest 
+span backward",Original UDS question,v3,x,test
+758,"C2
+Neuropsychological Battery Scores",CRAFTDVR,"Craft Story 21 Recall (Delayed) — Total 
+story units recalled, verbatim scoring",Original UDS question,v3,x,test
+759,"C2
+Neuropsychological Battery Scores",CRAFTDRE,"Craft Story 21 Recall (Delayed) — Total 
+story units recalled, paraphrase scoring",Original UDS question,v3,x,test
+760,"C2
+Neuropsychological Battery Scores",CRAFTDTI,"Craft Story 21 Recall (Delayed) — Delay 
+time",Original UDS question,v3,x,test
+762,"C2
+Neuropsychological Battery Scores",CRAFTCUE,"Craft Story 21 Recall (Delayed) — Cue 
+(boy) needed",Original UDS question,v3,x,test
+765,"C2
+Neuropsychological Battery Scores",MINTTOTS,"Multilingual Naming Test (MINT) — 
+Total score",Original UDS question,v3,x,test
+766,"C2
+Neuropsychological Battery Scores",MINTTOTW,"Multilingual Naming Test (MINT) — 
+Total correct without semantic cue",Original UDS question,v3,x,test
+767,"C2
+Neuropsychological Battery Scores",MINTSCNG,"Multilingual Naming Test (MINT) — 
+Semantic cues: Number given",Original UDS question,v3,x,test
+768,"C2
+Neuropsychological Battery Scores",MINTSCNC,"Multilingual Naming Test (MINT) — 
+Semantic cues: Number correct with cue",Original UDS question,v3,x,test
+769,"C2
+Neuropsychological Battery Scores",MINTPCNG,"Multilingual Naming Test (MINT) — 
+Phonemic cues: Number given",Original UDS question,v3,x,test
+770,"C2
+Neuropsychological Battery Scores",MINTPCNC,"Multilingual Naming Test (MINT) — 
+Phonemic cues: Number correct with 
+cue",Original UDS question,v3,x,test
+781,"C2
+Neuropsychological Battery Scores",NACCC2,"Form date discrepancy between UDS 
+Form A1 and Form C2",NACC derived variable,v3,method,method
+782,"D1
+Clinician Diagnosis",WHODIDDX,Who did diagnosis,Original UDS question,v1-2,method,method
+783,"D1
+Clinician Diagnosis",DXMETHOD,Diagnosis method,Original UDS question,v3,method,method
+784,"D1
+Clinician Diagnosis",NORMCOG,Normal cognition and behavior,Original UDS question,v1-3,x,diagnosis
+785,"D1
+Clinician Diagnosis",DEMENTED,Met criteria for dementia,Original UDS question,v1-3,x,diagnosis
+786,"D1
+Clinician Diagnosis",NACCUDSD,Cognitive status at UDS visit,NACC derived variable,v1-3,x,diagnosis
+787,"D1
+Clinician Diagnosis",AMNDEM,"Dementia syndrome — Amnestic 
+multidomain dementia syndrome",Original UDS question,v3,x,diagnosis
+789,"D1
+Clinician Diagnosis",PCA,"Dementia syndrome — Posterior cortical 
+atrophy syndrome (or primary visual 
+presentation)",Original UDS question,v3,x,diagnosis
+790,"D1
+Clinician Diagnosis",NACCPPA,"Primary progressive aphasia (PPA) with 
+cognitive impairment",NACC derived variable,v1-3,x,diagnosis
+791,"D1
+Clinician Diagnosis",NACCPPAG,"Dementia syndrome — Primary 
+progressive aphasia (PPA) subtype 
+according to the criteria outlined by 
+Gorno-Tempini et al. 2011",NACC derived variable,v3,x,diagnosis
+792,"D1
+Clinician Diagnosis",NACCPPME,"Primary progressive aphasia (PPA) 
+subtype according to older criteria 
+outlined by Mesulam et al (2001 and 
+2003)",NACC derived variable,v1-2,x,diagnosis
+793,"D1
+Clinician Diagnosis",NACCBVFT,"Dementia syndrome — behavioral variant 
+FTD syndrome (bvFTD)",NACC derived variable,v1-3,x,diagnosis
+794,"D1
+Clinician Diagnosis",NACCLBDS,"Dementia syndrome — Lewy body 
+dementia syndrome",NACC derived variable,v1-3,x,diagnosis
+795,"D1
+Clinician Diagnosis",NAMNDEM,"Dementia syndrome — Non-amnestic 
+multidomain dementia, not PCA, PPA, 
+bvFTD, or DLB syndrome",Original UDS question,v3,x,diagnosis
+796,"D1
+Clinician Diagnosis",NACCTMCI,Mild cognitive impairment (MCI) type,NACC derived variable,v1-3,x,diagnosis
+797,"D1
+Clinician Diagnosis",NACCMCIL,MCI domain affected — language,NACC derived variable,v1-3,x,diagnosis
+798,"D1
+Clinician Diagnosis",NACCMCIA,MCI domain affected — attention,NACC derived variable,v1-3,x,diagnosis
+799,"D1
+Clinician Diagnosis",NACCMCIE,"MCI domain affected — executive 
+function",NACC derived variable,v1-3,x,diagnosis
+800,"D1
+Clinician Diagnosis",NACCMCIV,MCI domain affected — visuospatial,NACC derived variable,v1-3,x,diagnosis
+801,"D1
+Clinician Diagnosis",IMPNOMCI,"Cognitively impaired, not MCI",Original UDS question,v1-3,x,diagnosis
+802,"D1
+Clinician Diagnosis",AMYLPET,Abnormally elevated amyloid on PET,Original UDS question,v3,x,imaging
+803,"D1
+Clinician Diagnosis",AMYLCSF,Abnormally low amyloid in CSF,Original UDS question,v3,x,imaging
+804,"D1
+Clinician Diagnosis",FDGAD,FDG-PET pattern of AD,Original UDS question,v3,x,imaging
+805,"D1
+Clinician Diagnosis",HIPPATR,Hippocampal atrophy,Original UDS question,v3,x,imaging
+806,"D1
+Clinician Diagnosis",TAUPETAD,Tau PET evidence for AD,Original UDS question,v3,x,imaging
+807,"D1
+Clinician Diagnosis",CSFTAU,Abnormally elevated CSF Tau or pTau,Original UDS question,v3,x,imaging
+808,"D1
+Clinician Diagnosis",FDGFTLD,"FDG-PET evidence for frontal or anterior 
+temporal hypometabolism for FTLD",Original UDS question,v3,x,imaging
+809,"D1
+Clinician Diagnosis",TPETFTLD,Tau PET evidence for FTLD,Original UDS question,v3,x,imaging
+810,"D1
+Clinician Diagnosis",MRFTLD,"Structural MR evidence for frontal or 
+anterior temporal atrophy for FTLD",Original UDS question,v3,x,imaging
+811,"D1
+Clinician Diagnosis",DATSCAN,"Dopamine transporter scan (DATscan) 
+evidence for Lewy body disease",Original UDS question,v3,x,imaging
+812,"D1
+Clinician Diagnosis",OTHBIOM,Biomarker findings — Other,Original UDS question,v3,x,imaging
+814,"D1
+Clinician Diagnosis",IMAGLINF,Large vessel infarct(s),Original UDS question,v3,x,imaging
+815,"D1
+Clinician Diagnosis",IMAGLAC,Lacunar infarct(s),Original UDS question,v3,x,imaging
+816,"D1
+Clinician Diagnosis",IMAGMACH,Macrohemorrhage(s),Original UDS question,v3,x,imaging
+817,"D1
+Clinician Diagnosis",IMAGMICH,Microhemorrhage(s),Original UDS question,v3,x,imaging
+819,"D1
+Clinician Diagnosis",IMAGMWMH,"Moderate white-matter hyperintensity 
+(CHS score 5-6)",Original UDS question,v3,x,imaging
+820,"D1
+Clinician Diagnosis",IMAGEWMH,"Extensive white-matter hyperintensity 
+(CHS score 7-8)",Original UDS question,v3,x,imaging
+821,"D1
+Clinician Diagnosis",OTHMUT,"Does the subject have a hereditary 
+mutation other than an AD or FTLD 
+mutation?",Original UDS question,v3,x,genetics
+823,"D1
+Clinician Diagnosis",NACCALZD,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Alzheimer’s disease",NACC derived variable,v1-3,x,diagnosis
+824,"D1
+Clinician Diagnosis",NACCALZP,"Primary, contributing, or non-
+contributing cause of observed cognitive 
+impairment — Alzheimer’s disease (AD)",NACC derived variable,v1-3,x,diagnosis
+825,"D1
+Clinician Diagnosis",PROBAD,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Probable 
+Alzheimer’s disease",Original UDS question,v1-2,x,diagnosis
+826,"D1
+Clinician Diagnosis",PROBADIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Probable Alzheimer’s 
+disease",Original UDS question,v1-2,x,diagnosis
+827,"D1
+Clinician Diagnosis",POSSAD,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Possible 
+Alzheimer’s disease",Original UDS question,v1-2,x,diagnosis
+828,"D1
+Clinician Diagnosis",POSSADIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Possible Alzheimer’s 
+disease",Original UDS question,v1-2,x,diagnosis
+829,"D1
+Clinician Diagnosis",NACCLBDE,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Lewy body disease",NACC derived variable,v1-3,x,diagnosis
+830,"D1
+Clinician Diagnosis",NACCLBDP,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Lewy body disease (LBD)",NACC derived variable,v1-3,x,diagnosis
+831,"D1
+Clinician Diagnosis",PARK,Parkinson’s disease present,Original UDS question,v1-3,x,diagnosis
+832,"D1
+Clinician Diagnosis",MSA,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Multiple system 
+atrophy (MSA)",Original UDS question,v3,x,diagnosis
+833,"D1
+Clinician Diagnosis",MSAIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Multiple system atrophy 
+(MSA)",Original UDS question,v3,x,diagnosis
+834,"D1
+Clinician Diagnosis",PSP,"Presumptive etiologic diagnosis of 
+the cognitive disorder — primary 
+supranuclear palsy (PSP)",Original UDS question,v1-3,x,diagnosis
+835,"D1
+Clinician Diagnosis",PSPIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Primary supranuclear 
+palsy (PSP)",Original UDS question,v1-3,x,diagnosis
+836,"D1
+Clinician Diagnosis",CORT,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Corticobasal 
+degeneration (CBD)",Original UDS question,v1-3,x,diagnosis
+838,"D1
+Clinician Diagnosis",CORTIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Corticobasal degeneration 
+(CBD)",Original UDS question,v1-3,x,diagnosis
+839,"D1
+Clinician Diagnosis",FTLDMO,"Presumptive etiologic diagnosis of the 
+cognitive disorder — FTLD with motor 
+neuron disease (MND)",Original UDS question,v3,x,diagnosis
+840,"D1
+Clinician Diagnosis",FTLDMOIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — FTLD with motor neuron 
+disease (MND)",Original UDS question,v3,x,diagnosis
+841,"D1
+Clinician Diagnosis",FTLDNOS,"Presumptive etiologic diagnosis of the 
+cognitive disorder — FTLD not otherwise 
+specified (NOS)",Original UDS question,v3,x,diagnosis
+842,"D1
+Clinician Diagnosis",FTLDNOIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — FTLD not otherwise 
+specified (NOS)",Original UDS question,v3,x,diagnosis
+843,"D1
+Clinician Diagnosis",FTD,"Presence of behavioral frontotemporal 
+dementia (bvFTD)",Original UDS question,v1-2,x,diagnosis
+844,"D1
+Clinician Diagnosis",FTDIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — behavioral frontotemporal 
+dementia (bvFTD)",Original UDS question,v1-2,x,diagnosis
+845,"D1
+Clinician Diagnosis",PPAPH,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Primary progressive 
+aphasia (PPA)",Original UDS question,v1-2,x,diagnosis
+846,"D1
+Clinician Diagnosis",PPAPHIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — primary progressive 
+aphasia (PPA)",Original UDS question,v1-2,x,diagnosis
+847,"D1
+Clinician Diagnosis",FTLDSUBT,FTLD subtype,Original UDS question,v3,x,diagnosis
+849,"D1
+Clinician Diagnosis",CVD,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Vascular brain 
+injury (VBI)",Original UDS question,v3,x,diagnosis
+850,"D1
+Clinician Diagnosis",CVDIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — vascular brain injury",Original UDS question,v3,x,diagnosis
+851,"D1
+Clinician Diagnosis",PREVSTK,Previous symptomatic stroke,Original UDS question,v3,x,reported
+852,"D1
+Clinician Diagnosis",STROKDEC,"Temporal relationship between stroke 
+and cognitive decline",Original UDS question,v3,x,reported
+853,"D1
+Clinician Diagnosis",STKIMAG,Confirmation of stroke by neuroimaging,Original UDS question,v3,x,imaging
+854,"D1
+Clinician Diagnosis",INFNETW,"Imaging evidence of cystic infarction in 
+cognitive network(s)",Original UDS question,v3,x,imaging
+855,"D1
+Clinician Diagnosis",INFWMH,"Imaging evidence of cystic infarction, 
+imaging evidence of extensive white 
+matter hyperintensity (CHS grade 7-8+), 
+and impairment in executive function",Original UDS question,v3,x,imaging
+857,"D1
+Clinician Diagnosis",VASC,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Probable vascular 
+dementia (NINDS/AIREN criteria)",Original UDS question,v1-2,x,diagnosis
+858,"D1
+Clinician Diagnosis",VASCIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Probable vascular 
+dementia (NINDS/AIREN criteria)",Original UDS question,v1-2,x,diagnosis
+859,"D1
+Clinician Diagnosis",VASCPS,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Possible vascular 
+dementia (NINDS/AIREN criteria)",Original UDS question,v2,x,diagnosis
+860,"D1
+Clinician Diagnosis",VASCPSIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — possible vascular 
+dementia (NINDS/AIREN criteria)",Original UDS question,v2,x,diagnosis
+861,"D1
+Clinician Diagnosis",STROKE,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Stroke",Original UDS question,v1-2,x,diagnosis
+862,"D1
+Clinician Diagnosis",STROKIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — stroke",Original UDS question,v1-2,x,diagnosis
+863,"D1
+Clinician Diagnosis",ESSTREM,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Essential tremor",Original UDS question,v3,x,diagnosis
+864,"D1
+Clinician Diagnosis",ESSTREIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Essential tremor",Original UDS question,v3,x,diagnosis
+865,"D1
+Clinician Diagnosis",DOWNS,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Down syndrome",Original UDS question,v1-3,x,diagnosis
+866,"D1
+Clinician Diagnosis",DOWNSIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Down syndrome",Original UDS question,v1-3,x,diagnosis
+867,"D1
+Clinician Diagnosis",HUNT,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Huntington’s 
+disease",Original UDS question,v1-3,x,diagnosis
+868,"D1
+Clinician Diagnosis",HUNTIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Huntington’s disease",Original UDS question,v1-3,x,diagnosis
+869,"D1
+Clinician Diagnosis",PRION,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Prion disease (CJD, 
+other)",Original UDS question,v1-3,x,diagnosis
+870,"D1
+Clinician Diagnosis",PRIONIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Prion disease (CJD, other)",Original UDS question,v1-3,x,diagnosis
+871,"D1
+Clinician Diagnosis",BRNINJ,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Traumatic brain 
+injury (TBI)",Original UDS question,v1-3,x,diagnosis
+872,"D1
+Clinician Diagnosis",BRNINJIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Traumatic brain injury 
+(TBI)",Original UDS question,v1-3,x,diagnosis
+873,"D1
+Clinician Diagnosis",BRNINCTE,"Symptoms consistent with chronic 
+traumatic encephalopathy (CTE)",Original UDS question,v3,x,diagnosis
+875,"D1
+Clinician Diagnosis",HYCEPH,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Normal-pressure 
+hydrocephalus (NPH)",Original UDS question,v1-3,x,diagnosis
+876,"D1
+Clinician Diagnosis",HYCEPHIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Normal-pressure 
+hydrocephalus (NPH)",Original UDS question,v1-3,x,diagnosis
+877,"D1
+Clinician Diagnosis",EPILEP,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Epilepsy",Original UDS question,v3,x,diagnosis
+878,"D1
+Clinician Diagnosis",EPILEPIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Epilepsy",Original UDS question,v3,x,diagnosis
+879,"D1
+Clinician Diagnosis",NEOP,"Presumptive etiologic diagnosis of the 
+cognitive disorder — CNS neoplasm",Original UDS question,v1-3,x,diagnosis
+880,"D1
+Clinician Diagnosis",NEOPIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — CNS neoplasm",Original UDS question,v1-3,x,diagnosis
+881,"D1
+Clinician Diagnosis",NEOPSTAT,CNS neoplasm — benign or malignant,Original UDS question,v3,x,reported
+882,"D1
+Clinician Diagnosis",HIV,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Human 
+immunodeficiency virus (HIV)",Original UDS question,v3,x,diagnosis
+883,"D1
+Clinician Diagnosis",HIVIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — HIV",Original UDS question,v3,x,diagnosis
+884,"D1
+Clinician Diagnosis",OTHCOG,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Other neurological, 
+genetic, or infectious condition",Original UDS question,v3,x,diagnosis
+885,"D1
+Clinician Diagnosis",OTHCOGIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other neurological, 
+genetic, or infectious condition",Original UDS question,v3,x,diagnosis
+887,"D1
+Clinician Diagnosis",DEP,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Depression",Original UDS question,v1-3,x,diagnosis
+888,"D1
+Clinician Diagnosis",DEPIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Depression",Original UDS question,v1-3,x,diagnosis
+889,"D1
+Clinician Diagnosis",DEPTREAT,Depression — Treated or untreated,Original UDS question,v3,x,reported
+890,"D1
+Clinician Diagnosis",BIPOLDX,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Bipolar disorder",Original UDS question,v3,x,diagnosis
+891,"D1
+Clinician Diagnosis",BIPOLDIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — bipolar disorder",Original UDS question,v3,x,diagnosis
+892,"D1
+Clinician Diagnosis",SCHIZOP,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Schizophrenia or 
+other psychosis",Original UDS question,v3,x,diagnosis
+894,"D1
+Clinician Diagnosis",SCHIZOIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Schizophrenia or other 
+psychosis",Original UDS question,v3,x,diagnosis
+895,"D1
+Clinician Diagnosis",ANXIET,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Anxiety",Original UDS question,v3,x,diagnosis
+896,"D1
+Clinician Diagnosis",ANXIETIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Anxiety",Original UDS question,v3,x,diagnosis
+897,"D1
+Clinician Diagnosis",DELIR,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Delirium",Original UDS question,v3,x,diagnosis
+898,"D1
+Clinician Diagnosis",DELIRIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Delirium",Original UDS question,v3,x,diagnosis
+899,"D1
+Clinician Diagnosis",PTSDDX,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Post-traumatic 
+stress disorder (PTSD)",Original UDS question,v3,x,diagnosis
+900,"D1
+Clinician Diagnosis",PTSDDXIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — PTSD",Original UDS question,v3,x,diagnosis
+901,"D1
+Clinician Diagnosis",OTHPSY,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Other psychiatric 
+disease",Original UDS question,v1-3,x,diagnosis
+902,"D1
+Clinician Diagnosis",OTHPSYIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other psychiatric disease",Original UDS question,v1-3,x,diagnosis
+904,"D1
+Clinician Diagnosis",ALCDEM,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Cognitive 
+impairment due to alcohol abuse",Original UDS question,v1-3,x,diagnosis
+905,"D1
+Clinician Diagnosis",ALCDEMIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Alcohol abuse",Original UDS question,v1-3,x,diagnosis
+906,"D1
+Clinician Diagnosis",ALCABUSE,Current alcohol abuse,Original UDS question,v3,x,reported
+907,"D1
+Clinician Diagnosis",IMPSUB,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Cognitive 
+impairment due to other substance 
+abuse",Original UDS question,v3,x,diagnosis
+908,"D1
+Clinician Diagnosis",IMPSUBIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other substance abuse",Original UDS question,v3,x,diagnosis
+909,"D1
+Clinician Diagnosis",DYSILL,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Cognitive 
+impairment due to systemic disease/
+medical illness",Original UDS question,v1-3,x,diagnosis
+910,"D1
+Clinician Diagnosis",DYSILLIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — systemic disease/medical 
+illness",Original UDS question,v1-3,x,diagnosis
+912,"D1
+Clinician Diagnosis",MEDS,"Presumptive etiologic diagnosis of 
+the cognitive disorder — Cognitive 
+impairment due to medications",Original UDS question,v1-3,x,diagnosis
+913,"D1
+Clinician Diagnosis",MEDSIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — medications",Original UDS question,v1-3,x,diagnosis
+914,"D1
+Clinician Diagnosis",DEMUN,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Undetermined 
+etiology",Original UDS question,v1-2,x,diagnosis
+915,"D1
+Clinician Diagnosis",DEMUNIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Undetermined etiology",Original UDS question,v1-2,x,diagnosis
+916,"D1
+Clinician Diagnosis",COGOTH,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Other 1 (specify)",Original UDS question,v1-3,x,diagnosis
+917,"D1
+Clinician Diagnosis",COGOTHIF,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other1 (specify)",Original UDS question,v1-3,x,diagnosis
+919,"D1
+Clinician Diagnosis",COGOTH2,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Other 2 (specify)",Original UDS question,v2-3,x,diagnosis
+920,"D1
+Clinician Diagnosis",COGOTH2F,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other 2 (specify)",Original UDS question,v2-3,x,diagnosis
+922,"D1
+Clinician Diagnosis",COGOTH3,"Presumptive etiologic diagnosis of the 
+cognitive disorder — Other 3 (specify)",Original UDS question,v2-3,x,diagnosis
+923,"D1
+Clinician Diagnosis",COGOTH3F,"Primary, contributing, or non-
+contributing cause of cognitive 
+impairment — Other 3 (specify)",Original UDS question,v2-3,x,diagnosis
+925,"D1
+Clinician Diagnosis",NACCNORM,Normal cognition at all visits to date,NACC derived variable,v1-3,x,status
+926,"D1
+Clinician Diagnosis",NACCIDEM,Incident dementia during UDS follow-up,NACC derived variable,v1-3,x,status
+927,"D1
+Clinician Diagnosis",NACCMCII,Incident MCI during UDS follow-up,NACC derived variable,v1-3,x,status
+928,"D1
+Clinician Diagnosis",NACCADMU,"Does the subject have a dominantly 
+inherited AD mutation?",NACC derived variable,v3,x,genetics
+929,"D1
+Clinician Diagnosis",NACCFTDM,"Does the subject have an hereditary 
+FTLD mutation?",NACC derived variable,v3,x,genetics
+930,"D1
+Clinician Diagnosis",NACCETPR,"Primary etiologic diagnosis (MCI); 
+impaired, not MCI; or dementia",NACC derived variable,v1-3,x,diagnosis
+931,"D2
+Clinician-assessed Medical 
+Conditions",CANCER,"Cancer present in the last 12 months 
+(excluding non-melanoma skin cancer), 
+primary or metastatic",Original UDS question,v3,x,reported
+933,"D2
+Clinician-assessed Medical 
+Conditions",DIABET,Diabetes present at visit,Original UDS question,v3,x,reported
+935,"D2
+Clinician-assessed Medical 
+Conditions",MYOINF,"Myocardial infarct present within the 
+past 12 months",Original UDS question,v3,x,reported
+936,"D2
+Clinician-assessed Medical 
+Conditions",CONGHRT,Congestive heart failure present,Original UDS question,v3,x,reported
+937,"D2
+Clinician-assessed Medical 
+Conditions",AFIBRILL,Atrial fibrillation present,Original UDS question,v3,x,reported
+938,"D2
+Clinician-assessed Medical 
+Conditions",HYPERT,Hypertension present,Original UDS question,v3,x,reported
+939,"D2
+Clinician-assessed Medical 
+Conditions",ANGINA,Angina present,Original UDS question,v3,x,reported
+940,"D2
+Clinician-assessed Medical 
+Conditions",HYPCHOL,Hypercholesterolemia present,Original UDS question,v3,x,reported
+941,"D2
+Clinician-assessed Medical 
+Conditions",VB12DEF,B12 deficiency present,Original UDS question,v3,x,reported
+942,"D2
+Clinician-assessed Medical 
+Conditions",THYDIS,Thyroid disease present,Original UDS question,v3,x,reported
+943,"D2
+Clinician-assessed Medical 
+Conditions",ARTH,Arthritis present,Original UDS question,v3,x,reported
+944,"D2
+Clinician-assessed Medical 
+Conditions",ARTYPE,Arthritis type,Original UDS question,v3,x,reported
+946,"D2
+Clinician-assessed Medical 
+Conditions",ARTUPEX,"Arthritis region affected — upper 
+extremity",Original UDS question,v3,x,reported
+947,"D2
+Clinician-assessed Medical 
+Conditions",ARTLOEX,"Arthritis region affected — lower 
+extremity",Original UDS question,v3,x,reported
+948,"D2
+Clinician-assessed Medical 
+Conditions",ARTSPIN,Arthritis region affected — spine,Original UDS question,v3,x,reported
+949,"D2
+Clinician-assessed Medical 
+Conditions",ARTUNKN,Arthritis region affected — unknown,Original UDS question,v3,x,reported
+950,"D2
+Clinician-assessed Medical 
+Conditions",URINEINC,Incontinence present — urinary,Original UDS question,v3,x,reported
+951,"D2
+Clinician-assessed Medical 
+Conditions",BOWLINC,Incontinence present — bowel,Original UDS question,v3,x,reported
+952,"D2
+Clinician-assessed Medical 
+Conditions",SLEEPAP,Sleep apnea present,Original UDS question,v3,x,reported
+953,"D2
+Clinician-assessed Medical 
+Conditions",REMDIS,"REM sleep behavior disorder (RBD) 
+present",Original UDS question,v3,x,reported
+954,"D2
+Clinician-assessed Medical 
+Conditions",HYPOSOM,Hyposomnia/insomnia present,Original UDS question,v3,x,reported
+955,"D2
+Clinician-assessed Medical 
+Conditions",SLEEPOTH,Other sleep disorder present,Original UDS question,v3,x,reported
+957,"D2
+Clinician-assessed Medical 
+Conditions",ANGIOCP,"Carotid procedure: angioplasty, 
+endarterectomy, or stent within the past 
+12 months",Original UDS question,v3,x,reported
+958,"D2
+Clinician-assessed Medical 
+Conditions",ANGIOPCI,"Percutaneous coronary intervention: 
+angioplasty and/or stent within the past 
+12 months",Original UDS question,v3,x,reported
+960,"D2
+Clinician-assessed Medical 
+Conditions",PACEMAKE,"Procedure: pacemaker and/or 
+defibrillator within the past 12 months",Original UDS question,v3,x,reported
+961,"D2
+Clinician-assessed Medical 
+Conditions",HVALVE,"Procedure: heart valve replacement or 
+repair within the past 12 months",Original UDS question,v3,x,reported
+962,"D2
+Clinician-assessed Medical 
+Conditions",ANTIENC,"Antibody-mediated encephalopathy 
+within the past 12 months",Original UDS question,v3,x,reported
+964,"D2
+Clinician-assessed Medical 
+Conditions",OTHCOND,"Other medical conditions or procedures 
+within the past 12 months not listed 
+above",Original UDS question,v3,x,reported
+1009,Other data available at NACC,NACCFTD,"One or more FTLD Module visits 
+completed",NACC derived variable,v3,method,method
+1011,Other data available at NACC,NACCLBDM,"One or more LBD Module visits 
+completed",NACC derived variable,v3,method,method
+1013,Other data available at NACC,NACCMRSA,At least one MRI scan available,NACC derived variable,v3,method,method
+1014,Other data available at NACC,NACCNAPA,"Total number of amyloid PET scans 
+available",NACC derived variable,v3,method,method
+1015,Other data available at NACC,NACCAPSA,At least one amyloid PET scan available,NACC derived variable,v3,method,method
+1016,Other data available at NACC,NACCACSF,"One or more measures of Aβ1–42 
+reported",NACC derived variable,v3,method,method
+1017,Other data available at NACC,NACCPCSF,"One or more measures of P-tau181P 
+reported",NACC derived variable,v3,method,method
+1018,Other data available at NACC,NACCTCSF,One or more measures of T-tau reported,NACC derived variable,v3,method,method
+1019,Other data available at NACC,NACCAUTP,"Neuropathology data from an autopsy is 
+available",NACC derived variable,v3,method,method
+47,,NACCAPOE,APOE genotype,Numeric cross-sectional,NACC derived,x,reported
+50,,NACCNE4S,Number of APOE e4 alleles,Numeric cross-sectional,NACC derived,x,reported
+54,,NPPATHO,Other ischemic or vascular pathology,Numeric,NACC derived,y,y
+0,,TELCOV,,,,method,method
+1,,TELMOD,,,,method,method
+2,,MODCOMM,,,,method,method
+3,,MOCBTOTS,,,,x,test
+4,,REY1REC,,,,x,test
+5,,REY1INT,,,,x,test
+6,,REY2REC,,,,x,test
+7,,REY2INT,,,,x,test
+8,,REY3REC,,,,x,test
+9,,REY3INT,,,,x,test
+10,,REY4REC,,,,x,test
+11,,REY4INT,,,,x,test
+12,,REY5REC,,,,x,test
+13,,REY5INT,,,,x,test
+14,,REY6REC,,,,x,test
+15,,REY6INT,,,,x,test
+16,,OTRAILA,,,,x,test
+17,,OTRLARR,,,,x,test
+18,,OTRLALI,,,,x,test
+19,,OTRAILB,,,,x,test
+20,,OTRLBRR,,,,x,test
+21,,OTRLBLI,,,,x,test
+22,,REYDREC,,,,x,test
+23,,REYDINT,,,,x,test
+24,,REYTCOR,,,,x,test
+25,,REYFPOS,,,,x,test
+26,,VNTTOTW,,,,x,test
+27,,VNTPCNC,,,,x,test
+28,,RESPVAL,,,,method,method
+29,,RESPHEAR,,,,method,method
+30,,RESPDIST,,,,method,method
+31,,RESPINTR,,,,method,method
+32,,RESPDISN,,,,method,method
+33,,RESPFATG,,,,method,method
+34,,RESPEMOT,,,,method,method
+35,,RESPASST,,,,method,method
+36,,RESPOTH,,,,method,method
+37,,RESPOTHX,,,,method,method
+38,,NACCMOCB,,,,x,test
