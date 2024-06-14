@@ -28,14 +28,14 @@ def experiment(
        ###### load data
        input_dir = exp_args['filename']
        # input_dir = 'example_data.csv'
-       data = pd.read_csv(input_dir)
+       data = pd.read_csv(input_dir, low_memory=False)
 
        if pd.Series([i not in data.columns for i in cont_features+categ_features]).any():
               print ('Column names are not correct, please see the list of column names in example_data.csv')
               quit()
 
        ###### preprocess data
-       with open('../prelim_results/Github_model/models/encoder', 'rb') as pickle_file:
+       with open('models/encoder', 'rb') as pickle_file:
               ohe = pickle.load(pickle_file)
 
 
@@ -74,8 +74,10 @@ def experiment(
 
 
        ###### load model
-       model = torch.load('models/heroku_withAge_seed1_Clin_heroku_lstm_variable')
+       model = torch.load('models/heroku_withAge_seed1_Clin_heroku_lstm_variable',
+                          map_location=torch.device(device))
        model.eval()
+       model.device = device
 
 
        ###### make prediction and output
@@ -100,5 +102,7 @@ def run_experiment(
     experiment( **experiment_params)
 
 if __name__ == '__main__':
+       # set torch device in case machine does not have CUDA enabled
+       device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
        experiment_params = dict()
        run_experiment(experiment_params)
